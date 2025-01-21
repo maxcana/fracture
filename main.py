@@ -19,7 +19,7 @@ class eD:
         return self.next() / 0x10000000000000000
 
     def nextInt(self, t, n):
-        return int(self.next_float() * (n - t)) + t
+        return int(self.nextFloat() * (n - t)) + t
 
 # get actions.json data for usage in get_db_action
 with open("data/actions.json", "r") as file:
@@ -46,17 +46,8 @@ def get_db_action(skill_id, action_id):
     
     return action
 
-input("copy the request start-action/\npress enter...")
 
-def get_active_action_from_clipboard():
-    unprocessed = pyperclip.paste()
-    return json.loads(unprocessed).get("action", {"failure": "yes"})
-
-active_action = get_active_action_from_clipboard()
-print(active_action)
-rng = eD(active_action.get("seed"))
-
-def update_progress(cycles):
+def update_progress(cycles, active_action, rng):
     cycles = int(cycles)
     
     # Unpack state
@@ -145,15 +136,27 @@ def update_progress(cycles):
 with open("data/items.json", "r") as file: items_db = json.load(file)
 
 def run():
+    input("copy the request start-action/\npress enter...")
+
+    def get_active_action_from_clipboard():
+        unprocessed = pyperclip.paste()
+        return json.loads(unprocessed).get("action", {"failure": "yes"})
+
+    active_action = get_active_action_from_clipboard()
+    print(active_action)
+    rng = eD(active_action.get("seed"))
+
+    
     # calculate drops from seed
-    drops = update_progress(1000)
+    drops = update_progress(1000, active_action, rng)
 
     # config
     interesting_qualities = ["RARE", "EPIC"]
     show_first_n_of_each_quality = 3
     print_each_drop = False
+    #end config
 
-    qualities = {}
+    qualities = {key: [] for key in interesting_qualities}
     for drop in drops:
         drop_number = drop[0]+1
         item_quantity = drop[1]
@@ -161,10 +164,7 @@ def run():
         q = items_db[item_id]["quality"].upper()
         
         if(q in interesting_qualities):
-            if q in qualities:
-                qualities[q].append((drop_number, item_quantity, item_id))
-            else:
-                qualities[q] = [(drop_number, item_quantity, item_id)]
+            qualities[q].append((drop_number, item_quantity, item_id))
         if(print_each_drop): 
             print(f"drop #{drop_number}: {item_quantity}x item {item_id}")
         
