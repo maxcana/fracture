@@ -151,7 +151,7 @@ def run():
     drops = update_progress(1000, active_action, rng)
 
     # config
-    interesting_qualities = ["RARE", "EPIC"]
+    interesting_qualities = ["RARE", "EPIC", "LEGENDARY"]
     show_first_n_of_each_quality = 3
     print_each_drop = False
     #end config
