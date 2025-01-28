@@ -1,2367 +1,2373 @@
 {
   "1": {
-    "id": 1,
-    "actions": {
-      "1": {
-        "id": 1,
-        "skill_id": 1,
-        "skill_level": 1,
-        "name": {
-          "de": "Kupferader",
-          "en": "Copper Vein"
-        },
-        "image": "copper_vein.png",
-        "experience": 5,
-        "duration": 5000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 3,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.001
+      "id": 1,
+      "actions": {
+          "1": {
+              "id": 1,
+              "skill_id": 1,
+              "skill_level": 1,
+              "name": {
+                  "de": "Kupferader",
+                  "en": "Copper Vein"
+              },
+              "image": "copper_vein.png",
+              "experience": 5,
+              "duration": 5000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 3,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.001
+                  },
+                  {
+                      "item_id": 14,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.1
+                  },
+                  {
+                      "item_id": 1,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [],
+              "slot_defaults": {},
+              "tier": 1
           },
-          {
-            "item_id": 14,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.1
+          "4": {
+              "id": 4,
+              "skill_id": 1,
+              "skill_level": 1,
+              "name": {
+                  "de": "Kohle",
+                  "en": "Coal"
+              },
+              "image": "coal.png",
+              "experience": 5,
+              "duration": 5000,
+              "single_reward": false,
+              "rewards": [
+                  {
+                      "item_id": 6,
+                      "quantity": 1,
+                      "max_quantity": 2,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [],
+              "slot_defaults": {},
+              "tier": 1
           },
-          {
-            "item_id": 1,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
+          "11": {
+              "id": 11,
+              "skill_id": 1,
+              "skill_level": 15,
+              "name": {
+                  "de": "Eisenader",
+                  "en": "Iron Vein"
+              },
+              "image": "iron_vein.png",
+              "experience": 10,
+              "duration": 7000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 33,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.05
+                  },
+                  {
+                      "item_id": 32,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.1
+                  },
+                  {
+                      "item_id": 31,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [],
+              "slot_defaults": {},
+              "tier": 2
+          },
+          "17": {
+              "id": 17,
+              "skill_id": 1,
+              "skill_level": 30,
+              "name": {
+                  "de": "Silberader",
+                  "en": "Silver Vein"
+              },
+              "image": "silver_vein.png",
+              "experience": 15,
+              "duration": 9000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 43,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.01
+                  },
+                  {
+                      "item_id": 42,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.05
+                  },
+                  {
+                      "item_id": 41,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.1
+                  },
+                  {
+                      "item_id": 40,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [],
+              "slot_defaults": {},
+              "tier": 3
+          },
+          "42": {
+              "id": 42,
+              "skill_id": 1,
+              "skill_level": 55,
+              "name": {
+                  "de": "Goldader",
+                  "en": "Gold Vein"
+              },
+              "image": "gold_vein.png",
+              "experience": 20,
+              "duration": 11000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 93,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.01
+                  },
+                  {
+                      "item_id": 92,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.05
+                  },
+                  {
+                      "item_id": 91,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.1
+                  },
+                  {
+                      "item_id": 90,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [],
+              "slot_defaults": {},
+              "tier": 4
           }
-        ],
-        "requirements": [],
-        "slot_defaults": {},
-        "tier": 1
-      },
-      "4": {
-        "id": 4,
-        "skill_id": 1,
-        "skill_level": 1,
-        "name": {
-          "de": "Kohle",
-          "en": "Coal"
-        },
-        "image": "coal.png",
-        "experience": 5,
-        "duration": 5000,
-        "single_reward": false,
-        "rewards": [
-          {
-            "item_id": 6,
-            "quantity": 1,
-            "max_quantity": 2,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [],
-        "slot_defaults": {},
-        "tier": 1
-      },
-      "11": {
-        "id": 11,
-        "skill_id": 1,
-        "skill_level": 15,
-        "name": {
-          "de": "Eisenader",
-          "en": "Iron Vein"
-        },
-        "image": "iron_vein.png",
-        "experience": 10,
-        "duration": 7000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 33,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.05
-          },
-          {
-            "item_id": 32,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.1
-          },
-          {
-            "item_id": 31,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [],
-        "slot_defaults": {},
-        "tier": 2
-      },
-      "17": {
-        "id": 17,
-        "skill_id": 1,
-        "skill_level": 30,
-        "name": {
-          "de": "Silberader",
-          "en": "Silver Vein"
-        },
-        "image": "silver_vein.png",
-        "experience": 15,
-        "duration": 9000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 43,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.01
-          },
-          {
-            "item_id": 42,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.05
-          },
-          {
-            "item_id": 41,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.1
-          },
-          {
-            "item_id": 40,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [],
-        "slot_defaults": {},
-        "tier": 3
-      },
-      "42": {
-        "id": 42,
-        "skill_id": 1,
-        "skill_level": 55,
-        "name": {
-          "de": "Goldader",
-          "en": "Gold Vein"
-        },
-        "image": "gold_vein.png",
-        "experience": 20,
-        "duration": 11000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 93,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.01
-          },
-          {
-            "item_id": 92,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.05
-          },
-          {
-            "item_id": 91,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.1
-          },
-          {
-            "item_id": 90,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [],
-        "slot_defaults": {},
-        "tier": 4
       }
-    }
   },
   "2": {
-    "id": 2,
-    "actions": {
-      "2": {
-        "id": 2,
-        "skill_id": 2,
-        "skill_level": 1,
-        "name": {
-          "de": "Karpfen",
-          "en": "Carp"
-        },
-        "image": "carp.png",
-        "experience": 5,
-        "duration": 5000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 7,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.05
+      "id": 2,
+      "actions": {
+          "2": {
+              "id": 2,
+              "skill_id": 2,
+              "skill_level": 1,
+              "name": {
+                  "de": "Karpfen",
+                  "en": "Carp"
+              },
+              "image": "carp.png",
+              "experience": 5,
+              "duration": 5000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 7,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.05
+                  },
+                  {
+                      "item_id": 2,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 8,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 1,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 8
+              },
+              "tier": 1
           },
-          {
-            "item_id": 2,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [
-          {
-            "item_id": 8,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 1,
-            "keep_after_action": false
-          }
-        ],
-        "slot_defaults": {
-          "0": 8
-        },
-        "tier": 1
-      },
-      "31": {
-        "id": 31,
-        "skill_id": 2,
-        "skill_level": 15,
-        "name": {
-          "de": "Garnele",
-          "en": "Shrimp"
-        },
-        "image": "shrimp.png",
-        "experience": 10,
-        "duration": 7000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 7,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.05
+          "31": {
+              "id": 31,
+              "skill_id": 2,
+              "skill_level": 15,
+              "name": {
+                  "de": "Garnele",
+                  "en": "Shrimp"
+              },
+              "image": "shrimp.png",
+              "experience": 10,
+              "duration": 7000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 7,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.05
+                  },
+                  {
+                      "item_id": 77,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 8,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 1,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 8
+              },
+              "tier": 2
           },
-          {
-            "item_id": 77,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [
-          {
-            "item_id": 8,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 1,
-            "keep_after_action": false
-          }
-        ],
-        "slot_defaults": {
-          "0": 8
-        },
-        "tier": 2
-      },
-      "32": {
-        "id": 32,
-        "skill_id": 2,
-        "skill_level": 30,
-        "name": {
-          "de": "Barsch",
-          "en": "Bass"
-        },
-        "image": "bass.png",
-        "experience": 15,
-        "duration": 9000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 80,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.0001
+          "32": {
+              "id": 32,
+              "skill_id": 2,
+              "skill_level": 30,
+              "name": {
+                  "de": "Barsch",
+                  "en": "Bass"
+              },
+              "image": "bass.png",
+              "experience": 15,
+              "duration": 9000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 80,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.0001
+                  },
+                  {
+                      "item_id": 7,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.05
+                  },
+                  {
+                      "item_id": 76,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 8,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 1,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 8
+              },
+              "tier": 3
           },
-          {
-            "item_id": 7,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.05
-          },
-          {
-            "item_id": 76,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
+          "45": {
+              "id": 45,
+              "skill_id": 2,
+              "skill_level": 55,
+              "name": {
+                  "de": "Brachse",
+                  "en": "Bream"
+              },
+              "image": "bream.png",
+              "experience": 20,
+              "duration": 11000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 125,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.0001
+                  },
+                  {
+                      "item_id": 7,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.05
+                  },
+                  {
+                      "item_id": 124,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 8,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 1,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 8
+              },
+              "tier": 4
           }
-        ],
-        "requirements": [
-          {
-            "item_id": 8,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 1,
-            "keep_after_action": false
-          }
-        ],
-        "slot_defaults": {
-          "0": 8
-        },
-        "tier": 3
-      },
-      "45": {
-        "id": 45,
-        "skill_id": 2,
-        "skill_level": 55,
-        "name": {
-          "de": "Brachse",
-          "en": "Bream"
-        },
-        "image": "bream.png",
-        "experience": 20,
-        "duration": 11000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 125,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.0001
-          },
-          {
-            "item_id": 7,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.05
-          },
-          {
-            "item_id": 124,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [
-          {
-            "item_id": 8,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 1,
-            "keep_after_action": false
-          }
-        ],
-        "slot_defaults": {
-          "0": 8
-        },
-        "tier": 4
       }
-    }
   },
   "3": {
-    "id": 3,
-    "actions": {
-      "3": {
-        "id": 3,
-        "skill_id": 3,
-        "skill_level": 1,
-        "name": {
-          "de": "Gekochter Karpfen",
-          "en": "Cooked Carp"
-        },
-        "image": "cooked_carp.png",
-        "experience": 5,
-        "duration": 5000,
-        "single_reward": false,
-        "rewards": [
-          {
-            "item_id": 5,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [
-          {
-            "item_id": 2,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 1,
-            "keep_after_action": false
+      "id": 3,
+      "actions": {
+          "3": {
+              "id": 3,
+              "skill_id": 3,
+              "skill_level": 1,
+              "name": {
+                  "de": "Gekochter Karpfen",
+                  "en": "Cooked Carp"
+              },
+              "image": "cooked_carp.png",
+              "experience": 5,
+              "duration": 5000,
+              "single_reward": false,
+              "rewards": [
+                  {
+                      "item_id": 5,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 2,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 1,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 6,
+                      "slot_number": 1,
+                      "quality_bonus": 0,
+                      "quantity": 1,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 2,
+                  "1": 6
+              },
+              "tier": 1
           },
-          {
-            "item_id": 6,
-            "slot_number": 1,
-            "quality_bonus": 0,
-            "quantity": 1,
-            "keep_after_action": false
-          }
-        ],
-        "slot_defaults": {
-          "0": 2,
-          "1": 6
-        },
-        "tier": 1
-      },
-      "33": {
-        "id": 33,
-        "skill_id": 3,
-        "skill_level": 15,
-        "name": {
-          "de": "Gekochte Garnele",
-          "en": "Cooked Shrimp"
-        },
-        "image": "cooked_shrimp.png",
-        "experience": 10,
-        "duration": 7000,
-        "single_reward": false,
-        "rewards": [
-          {
-            "item_id": 79,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [
-          {
-            "item_id": 77,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 1,
-            "keep_after_action": false
+          "33": {
+              "id": 33,
+              "skill_id": 3,
+              "skill_level": 15,
+              "name": {
+                  "de": "Gekochte Garnele",
+                  "en": "Cooked Shrimp"
+              },
+              "image": "cooked_shrimp.png",
+              "experience": 10,
+              "duration": 7000,
+              "single_reward": false,
+              "rewards": [
+                  {
+                      "item_id": 79,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 77,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 1,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 6,
+                      "slot_number": 1,
+                      "quality_bonus": 0,
+                      "quantity": 2,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 77,
+                  "1": 6
+              },
+              "tier": 2
           },
-          {
-            "item_id": 6,
-            "slot_number": 1,
-            "quality_bonus": 0,
-            "quantity": 2,
-            "keep_after_action": false
-          }
-        ],
-        "slot_defaults": {
-          "0": 77,
-          "1": 6
-        },
-        "tier": 2
-      },
-      "34": {
-        "id": 34,
-        "skill_id": 3,
-        "skill_level": 30,
-        "name": {
-          "de": "Gekochter Barsch",
-          "en": "Cooked Bass"
-        },
-        "image": "cooked_bass.png",
-        "experience": 15,
-        "duration": 9000,
-        "single_reward": false,
-        "rewards": [
-          {
-            "item_id": 78,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [
-          {
-            "item_id": 76,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 1,
-            "keep_after_action": false
+          "34": {
+              "id": 34,
+              "skill_id": 3,
+              "skill_level": 30,
+              "name": {
+                  "de": "Gekochter Barsch",
+                  "en": "Cooked Bass"
+              },
+              "image": "cooked_bass.png",
+              "experience": 15,
+              "duration": 9000,
+              "single_reward": false,
+              "rewards": [
+                  {
+                      "item_id": 78,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 76,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 1,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 6,
+                      "slot_number": 1,
+                      "quality_bonus": 0,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 76,
+                  "1": 6
+              },
+              "tier": 3
           },
-          {
-            "item_id": 6,
-            "slot_number": 1,
-            "quality_bonus": 0,
-            "quantity": 3,
-            "keep_after_action": false
+          "46": {
+              "id": 46,
+              "skill_id": 3,
+              "skill_level": 55,
+              "name": {
+                  "de": "Gekochter Brachse",
+                  "en": "Cooked Bream"
+              },
+              "image": "cooked_bream.png",
+              "experience": 20,
+              "duration": 11000,
+              "single_reward": false,
+              "rewards": [
+                  {
+                      "item_id": 123,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 124,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 1,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 6,
+                      "slot_number": 1,
+                      "quality_bonus": 0,
+                      "quantity": 4,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 124,
+                  "1": 6
+              },
+              "tier": 4
           }
-        ],
-        "slot_defaults": {
-          "0": 76,
-          "1": 6
-        },
-        "tier": 3
-      },
-      "46": {
-        "id": 46,
-        "skill_id": 3,
-        "skill_level": 55,
-        "name": {
-          "de": "Gekochter Brachse",
-          "en": "Cooked Bream"
-        },
-        "image": "cooked_bream.png",
-        "experience": 20,
-        "duration": 11000,
-        "single_reward": false,
-        "rewards": [
-          {
-            "item_id": 123,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [
-          {
-            "item_id": 124,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 1,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 6,
-            "slot_number": 1,
-            "quality_bonus": 0,
-            "quantity": 4,
-            "keep_after_action": false
-          }
-        ],
-        "slot_defaults": {
-          "0": 124,
-          "1": 6
-        },
-        "tier": 4
       }
-    }
   },
   "4": {
-    "id": 4,
-    "actions": {
-      "5": {
-        "id": 5,
-        "skill_id": 4,
-        "skill_level": 1,
-        "name": {
-          "de": "Kupferbarren",
-          "en": "Copper Bar"
-        },
-        "image": "copper_bar.png",
-        "experience": 10,
-        "duration": 5000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 16,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.1
+      "id": 4,
+      "actions": {
+          "5": {
+              "id": 5,
+              "skill_id": 4,
+              "skill_level": 1,
+              "name": {
+                  "de": "Kupferbarren",
+                  "en": "Copper Bar"
+              },
+              "image": "copper_bar.png",
+              "experience": 10,
+              "duration": 5000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 16,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.1
+                  },
+                  {
+                      "item_id": 9,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 1,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 6,
+                      "slot_number": 1,
+                      "quality_bonus": 0,
+                      "quantity": 1,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 14,
+                      "slot_number": 0,
+                      "quality_bonus": 1.25,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 1,
+                  "1": 6
+              },
+              "tier": 1
           },
-          {
-            "item_id": 9,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
+          "12": {
+              "id": 12,
+              "skill_id": 4,
+              "skill_level": 15,
+              "name": {
+                  "de": "Eisenbarren",
+                  "en": "Iron Bar"
+              },
+              "image": "iron_bar.png",
+              "experience": 20,
+              "duration": 7000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 36,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.05
+                  },
+                  {
+                      "item_id": 35,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.1
+                  },
+                  {
+                      "item_id": 34,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 31,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 6,
+                      "slot_number": 1,
+                      "quality_bonus": 0,
+                      "quantity": 2,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 32,
+                      "slot_number": 0,
+                      "quality_bonus": 1.25,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 33,
+                      "slot_number": 0,
+                      "quality_bonus": 2.5,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 31,
+                  "1": 6
+              },
+              "tier": 2
+          },
+          "18": {
+              "id": 18,
+              "skill_id": 4,
+              "skill_level": 30,
+              "name": {
+                  "de": "Silberbarren",
+                  "en": "Silver Bar"
+              },
+              "image": "silver_bar.png",
+              "experience": 30,
+              "duration": 9000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 47,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.01
+                  },
+                  {
+                      "item_id": 46,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.05
+                  },
+                  {
+                      "item_id": 45,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.1
+                  },
+                  {
+                      "item_id": 44,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 40,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 41,
+                      "slot_number": 0,
+                      "quality_bonus": 1.25,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 42,
+                      "slot_number": 0,
+                      "quality_bonus": 2.5,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 43,
+                      "slot_number": 0,
+                      "quality_bonus": 5,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 6,
+                      "slot_number": 1,
+                      "quality_bonus": 0,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 40,
+                  "1": 6
+              },
+              "tier": 3
+          },
+          "41": {
+              "id": 41,
+              "skill_id": 4,
+              "skill_level": 55,
+              "name": {
+                  "de": "Goldbarren",
+                  "en": "Gold Bar"
+              },
+              "image": "gold_bar.png",
+              "experience": 40,
+              "duration": 11000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 82,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.01
+                  },
+                  {
+                      "item_id": 83,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.05
+                  },
+                  {
+                      "item_id": 84,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.1
+                  },
+                  {
+                      "item_id": 81,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 90,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 91,
+                      "slot_number": 0,
+                      "quality_bonus": 1.25,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 92,
+                      "slot_number": 0,
+                      "quality_bonus": 2.5,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 93,
+                      "slot_number": 0,
+                      "quality_bonus": 5,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 6,
+                      "slot_number": 1,
+                      "quality_bonus": 0,
+                      "quantity": 4,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 90,
+                  "1": 6
+              },
+              "tier": 4
           }
-        ],
-        "requirements": [
-          {
-            "item_id": 1,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 6,
-            "slot_number": 1,
-            "quality_bonus": 0,
-            "quantity": 1,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 14,
-            "slot_number": 0,
-            "quality_bonus": 1.25,
-            "quantity": 3,
-            "keep_after_action": false
-          }
-        ],
-        "slot_defaults": {
-          "0": 1,
-          "1": 6
-        },
-        "tier": 1
-      },
-      "12": {
-        "id": 12,
-        "skill_id": 4,
-        "skill_level": 15,
-        "name": {
-          "de": "Eisenbarren",
-          "en": "Iron Bar"
-        },
-        "image": "iron_bar.png",
-        "experience": 20,
-        "duration": 7000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 36,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.05
-          },
-          {
-            "item_id": 35,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.1
-          },
-          {
-            "item_id": 34,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [
-          {
-            "item_id": 31,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 6,
-            "slot_number": 1,
-            "quality_bonus": 0,
-            "quantity": 2,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 32,
-            "slot_number": 0,
-            "quality_bonus": 1.25,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 33,
-            "slot_number": 0,
-            "quality_bonus": 2.5,
-            "quantity": 3,
-            "keep_after_action": false
-          }
-        ],
-        "slot_defaults": {
-          "0": 31,
-          "1": 6
-        },
-        "tier": 2
-      },
-      "18": {
-        "id": 18,
-        "skill_id": 4,
-        "skill_level": 30,
-        "name": {
-          "de": "Silberbarren",
-          "en": "Silver Bar"
-        },
-        "image": "silver_bar.png",
-        "experience": 30,
-        "duration": 9000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 47,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.01
-          },
-          {
-            "item_id": 46,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.05
-          },
-          {
-            "item_id": 45,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.1
-          },
-          {
-            "item_id": 44,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [
-          {
-            "item_id": 40,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 41,
-            "slot_number": 0,
-            "quality_bonus": 1.25,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 42,
-            "slot_number": 0,
-            "quality_bonus": 2.5,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 43,
-            "slot_number": 0,
-            "quality_bonus": 5,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 6,
-            "slot_number": 1,
-            "quality_bonus": 0,
-            "quantity": 3,
-            "keep_after_action": false
-          }
-        ],
-        "slot_defaults": {
-          "0": 40,
-          "1": 6
-        },
-        "tier": 3
-      },
-      "41": {
-        "id": 41,
-        "skill_id": 4,
-        "skill_level": 55,
-        "name": {
-          "de": "Goldbarren",
-          "en": "Gold Bar"
-        },
-        "image": "gold_bar.png",
-        "experience": 40,
-        "duration": 11000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 82,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.01
-          },
-          {
-            "item_id": 83,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.05
-          },
-          {
-            "item_id": 84,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.1
-          },
-          {
-            "item_id": 81,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [
-          {
-            "item_id": 90,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 91,
-            "slot_number": 0,
-            "quality_bonus": 1.25,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 92,
-            "slot_number": 0,
-            "quality_bonus": 2.5,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 93,
-            "slot_number": 0,
-            "quality_bonus": 5,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 6,
-            "slot_number": 1,
-            "quality_bonus": 0,
-            "quantity": 4,
-            "keep_after_action": false
-          }
-        ],
-        "slot_defaults": {
-          "0": 90,
-          "1": 6
-        },
-        "tier": 4
       }
-    }
   },
   "5": {
-    "id": 5,
-    "actions": {
-      "6": {
-        "id": 6,
-        "skill_id": 5,
-        "skill_level": 1,
-        "name": {
-          "de": "Kupfer Spitzhacke",
-          "en": "Copper Pickaxe"
-        },
-        "image": "copper_pickaxe.png",
-        "experience": 30,
-        "duration": 10000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 17,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.1
+      "id": 5,
+      "actions": {
+          "6": {
+              "id": 6,
+              "skill_id": 5,
+              "skill_level": 1,
+              "name": {
+                  "de": "Kupfer Spitzhacke",
+                  "en": "Copper Pickaxe"
+              },
+              "image": "copper_pickaxe.png",
+              "experience": 30,
+              "duration": 10000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 17,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.1
+                  },
+                  {
+                      "item_id": 10,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 9,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 16,
+                      "slot_number": 0,
+                      "quality_bonus": 1.25,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 9
+              },
+              "tier": 1
           },
-          {
-            "item_id": 10,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
+          "7": {
+              "id": 7,
+              "skill_id": 5,
+              "skill_level": 1,
+              "name": {
+                  "de": "Kupfer Angelrute",
+                  "en": "Copper Fishing Rod"
+              },
+              "image": "copper_fishing_rod.png",
+              "experience": 30,
+              "duration": 10000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 21,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.1
+                  },
+                  {
+                      "item_id": 11,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 9,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 16,
+                      "slot_number": 0,
+                      "quality_bonus": 1.25,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 9
+              },
+              "tier": 1
+          },
+          "8": {
+              "id": 8,
+              "skill_id": 5,
+              "skill_level": 1,
+              "name": {
+                  "de": "Kupfer Axt",
+                  "en": "Copper Axe"
+              },
+              "image": "copper_axe.png",
+              "experience": 30,
+              "duration": 10000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 19,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.1
+                  },
+                  {
+                      "item_id": 12,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 9,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 16,
+                      "slot_number": 0,
+                      "quality_bonus": 1.25,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 9
+              },
+              "tier": 1
+          },
+          "9": {
+              "id": 9,
+              "skill_id": 5,
+              "skill_level": 1,
+              "name": {
+                  "de": "Kupfer Hammer",
+                  "en": "Copper Hammer"
+              },
+              "image": "copper_hammer.png",
+              "experience": 30,
+              "duration": 10000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 18,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.1
+                  },
+                  {
+                      "item_id": 15,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 9,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 16,
+                      "slot_number": 0,
+                      "quality_bonus": 1.25,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 9
+              },
+              "tier": 1
+          },
+          "13": {
+              "id": 13,
+              "skill_id": 5,
+              "skill_level": 15,
+              "name": {
+                  "de": "Eisen Spitzhacke",
+                  "en": "Iron Pickaxe"
+              },
+              "image": "iron_pickaxe.png",
+              "experience": 60,
+              "duration": 12000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 23,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.01
+                  },
+                  {
+                      "item_id": 22,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.1
+                  },
+                  {
+                      "item_id": 13,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 34,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 35,
+                      "slot_number": 0,
+                      "quality_bonus": 1.25,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 36,
+                      "slot_number": 0,
+                      "quality_bonus": 2.5,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 34
+              },
+              "tier": 2
+          },
+          "14": {
+              "id": 14,
+              "skill_id": 5,
+              "skill_level": 15,
+              "name": {
+                  "de": "Eisen Hammer",
+                  "en": "Iron Hammer"
+              },
+              "image": "iron_hammer.png",
+              "experience": 60,
+              "duration": 12000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 29,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.01
+                  },
+                  {
+                      "item_id": 28,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.1
+                  },
+                  {
+                      "item_id": 27,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 34,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 35,
+                      "slot_number": 0,
+                      "quality_bonus": 1.25,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 36,
+                      "slot_number": 0,
+                      "quality_bonus": 2.5,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 34
+              },
+              "tier": 2
+          },
+          "15": {
+              "id": 15,
+              "skill_id": 5,
+              "skill_level": 15,
+              "name": {
+                  "de": "Eisen Axt",
+                  "en": "Iron Axe"
+              },
+              "image": "iron_axe.png",
+              "experience": 60,
+              "duration": 12000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 26,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.01
+                  },
+                  {
+                      "item_id": 25,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.1
+                  },
+                  {
+                      "item_id": 24,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 34,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 35,
+                      "slot_number": 0,
+                      "quality_bonus": 1.25,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 36,
+                      "slot_number": 0,
+                      "quality_bonus": 2.5,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 34
+              },
+              "tier": 2
+          },
+          "23": {
+              "id": 23,
+              "skill_id": 5,
+              "skill_level": 15,
+              "name": {
+                  "de": "Eisen Angelrute",
+                  "en": "Iron Fishing Rod"
+              },
+              "image": "iron_fishing_rod.png",
+              "experience": 60,
+              "duration": 12000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 48,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.01
+                  },
+                  {
+                      "item_id": 39,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.1
+                  },
+                  {
+                      "item_id": 38,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 34,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 35,
+                      "slot_number": 0,
+                      "quality_bonus": 1.25,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 36,
+                      "slot_number": 0,
+                      "quality_bonus": 2.5,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 34
+              },
+              "tier": 2
+          },
+          "24": {
+              "id": 24,
+              "skill_id": 5,
+              "skill_level": 30,
+              "name": {
+                  "de": "Silber Angelrute",
+                  "en": "Silver Fishing Rod"
+              },
+              "image": "silver_fishing_rod.png",
+              "experience": 90,
+              "duration": 14000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 64,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.0025
+                  },
+                  {
+                      "item_id": 49,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.01
+                  },
+                  {
+                      "item_id": 50,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.1
+                  },
+                  {
+                      "item_id": 51,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 44,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 45,
+                      "slot_number": 0,
+                      "quality_bonus": 1.25,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 46,
+                      "slot_number": 0,
+                      "quality_bonus": 2.5,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 47,
+                      "slot_number": 0,
+                      "quality_bonus": 5,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 44
+              },
+              "tier": 3
+          },
+          "25": {
+              "id": 25,
+              "skill_id": 5,
+              "skill_level": 30,
+              "name": {
+                  "de": "Silber Axt",
+                  "en": "Silver Axe"
+              },
+              "image": "silver_axe.png",
+              "experience": 90,
+              "duration": 14000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 62,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.0025
+                  },
+                  {
+                      "item_id": 55,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.01
+                  },
+                  {
+                      "item_id": 56,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.1
+                  },
+                  {
+                      "item_id": 57,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 44,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 45,
+                      "slot_number": 0,
+                      "quality_bonus": 1.25,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 46,
+                      "slot_number": 0,
+                      "quality_bonus": 2.5,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 47,
+                      "slot_number": 0,
+                      "quality_bonus": 5,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 44
+              },
+              "tier": 3
+          },
+          "26": {
+              "id": 26,
+              "skill_id": 5,
+              "skill_level": 30,
+              "name": {
+                  "de": "Silber Hammer",
+                  "en": "Silver Hammer"
+              },
+              "image": "silver_hammer.png",
+              "experience": 90,
+              "duration": 14000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 63,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.0025
+                  },
+                  {
+                      "item_id": 52,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.01
+                  },
+                  {
+                      "item_id": 53,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.1
+                  },
+                  {
+                      "item_id": 54,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 44,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 45,
+                      "slot_number": 0,
+                      "quality_bonus": 1.25,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 46,
+                      "slot_number": 0,
+                      "quality_bonus": 2.5,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 47,
+                      "slot_number": 0,
+                      "quality_bonus": 5,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 44
+              },
+              "tier": 3
+          },
+          "27": {
+              "id": 27,
+              "skill_id": 5,
+              "skill_level": 30,
+              "name": {
+                  "de": "Silber Spitzhacke",
+                  "en": "Silver Pickaxe"
+              },
+              "image": "silver_pickaxe.png",
+              "experience": 90,
+              "duration": 14000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 61,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.0025
+                  },
+                  {
+                      "item_id": 58,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.01
+                  },
+                  {
+                      "item_id": 59,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.1
+                  },
+                  {
+                      "item_id": 60,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 44,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 45,
+                      "slot_number": 0,
+                      "quality_bonus": 1.25,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 46,
+                      "slot_number": 0,
+                      "quality_bonus": 2.5,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 47,
+                      "slot_number": 0,
+                      "quality_bonus": 5,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 44
+              },
+              "tier": 3
+          },
+          "28": {
+              "id": 28,
+              "skill_id": 5,
+              "skill_level": 1,
+              "name": {
+                  "de": "Kupfer Schmelzstulpen",
+                  "en": "Copper Smelting Gauntlets"
+              },
+              "image": "copper_smelting_gauntlets.png",
+              "experience": 30,
+              "duration": 10000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 67,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.1
+                  },
+                  {
+                      "item_id": 68,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 9,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 16,
+                      "slot_number": 0,
+                      "quality_bonus": 1.25,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 9
+              },
+              "tier": 1
+          },
+          "29": {
+              "id": 29,
+              "skill_id": 5,
+              "skill_level": 15,
+              "name": {
+                  "de": "Eisen Schmelzstulpen",
+                  "en": "Iron Smelting Gauntlets"
+              },
+              "image": "iron_smelting_gauntlets.png",
+              "experience": 60,
+              "duration": 12000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 69,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.01
+                  },
+                  {
+                      "item_id": 70,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.1
+                  },
+                  {
+                      "item_id": 71,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 34,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 35,
+                      "slot_number": 0,
+                      "quality_bonus": 1.25,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 36,
+                      "slot_number": 0,
+                      "quality_bonus": 2.5,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 34
+              },
+              "tier": 2
+          },
+          "30": {
+              "id": 30,
+              "skill_id": 5,
+              "skill_level": 30,
+              "name": {
+                  "de": "Silber Schmelzstulpen",
+                  "en": "Silver Smelting Gauntlets"
+              },
+              "image": "silver_smelting_gauntlets.png",
+              "experience": 90,
+              "duration": 14000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 72,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.0025
+                  },
+                  {
+                      "item_id": 75,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.01
+                  },
+                  {
+                      "item_id": 74,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.1
+                  },
+                  {
+                      "item_id": 73,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 44,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 45,
+                      "slot_number": 0,
+                      "quality_bonus": 1.25,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 46,
+                      "slot_number": 0,
+                      "quality_bonus": 2.5,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 47,
+                      "slot_number": 0,
+                      "quality_bonus": 5,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 44
+              },
+              "tier": 3
+          },
+          "36": {
+              "id": 36,
+              "skill_id": 5,
+              "skill_level": 55,
+              "name": {
+                  "de": "Goldene Schmelzstulpen",
+                  "en": "Golden Smelting Gauntlets"
+              },
+              "image": "golden_smelting_gauntlets.png",
+              "experience": 120,
+              "duration": 16000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 121,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.0005
+                  },
+                  {
+                      "item_id": 118,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.0025
+                  },
+                  {
+                      "item_id": 119,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.025
+                  },
+                  {
+                      "item_id": 120,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 81,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 84,
+                      "slot_number": 0,
+                      "quality_bonus": 1.25,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 83,
+                      "slot_number": 0,
+                      "quality_bonus": 2.5,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 82,
+                      "slot_number": 0,
+                      "quality_bonus": 5,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 81
+              },
+              "tier": 4
+          },
+          "37": {
+              "id": 37,
+              "skill_id": 5,
+              "skill_level": 55,
+              "name": {
+                  "de": "Goldene Spitzhacke",
+                  "en": "Golden Pickaxe"
+              },
+              "image": "golden_pickaxe.png",
+              "experience": 120,
+              "duration": 16000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 102,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.0005
+                  },
+                  {
+                      "item_id": 101,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.0025
+                  },
+                  {
+                      "item_id": 100,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.025
+                  },
+                  {
+                      "item_id": 99,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 81,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 84,
+                      "slot_number": 0,
+                      "quality_bonus": 1.25,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 83,
+                      "slot_number": 0,
+                      "quality_bonus": 2.5,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 82,
+                      "slot_number": 0,
+                      "quality_bonus": 5,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 81
+              },
+              "tier": 4
+          },
+          "38": {
+              "id": 38,
+              "skill_id": 5,
+              "skill_level": 55,
+              "name": {
+                  "de": "Goldener Hammer",
+                  "en": "Golden Hammer"
+              },
+              "image": "golden_hammer.png",
+              "experience": 120,
+              "duration": 16000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 112,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.0005
+                  },
+                  {
+                      "item_id": 111,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.0025
+                  },
+                  {
+                      "item_id": 110,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.025
+                  },
+                  {
+                      "item_id": 113,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 81,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 84,
+                      "slot_number": 0,
+                      "quality_bonus": 1.25,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 83,
+                      "slot_number": 0,
+                      "quality_bonus": 2.5,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 82,
+                      "slot_number": 0,
+                      "quality_bonus": 5,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 81
+              },
+              "tier": 4
+          },
+          "39": {
+              "id": 39,
+              "skill_id": 5,
+              "skill_level": 55,
+              "name": {
+                  "de": "Goldene Axt",
+                  "en": "Golden Axe"
+              },
+              "image": "golden_axe.png",
+              "experience": 120,
+              "duration": 16000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 106,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.0005
+                  },
+                  {
+                      "item_id": 109,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.0025
+                  },
+                  {
+                      "item_id": 108,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.025
+                  },
+                  {
+                      "item_id": 107,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 81,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 84,
+                      "slot_number": 0,
+                      "quality_bonus": 1.25,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 83,
+                      "slot_number": 0,
+                      "quality_bonus": 2.5,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 82,
+                      "slot_number": 0,
+                      "quality_bonus": 5,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 81
+              },
+              "tier": 4
+          },
+          "40": {
+              "id": 40,
+              "skill_id": 5,
+              "skill_level": 55,
+              "name": {
+                  "de": "Goldene Angelrute",
+                  "en": "Golden Fishing Rod"
+              },
+              "image": "golden_fishing_rod.png",
+              "experience": 120,
+              "duration": 16000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 117,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.0005
+                  },
+                  {
+                      "item_id": 116,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.0025
+                  },
+                  {
+                      "item_id": 115,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0.025
+                  },
+                  {
+                      "item_id": 114,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 81,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 84,
+                      "slot_number": 0,
+                      "quality_bonus": 1.25,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 83,
+                      "slot_number": 0,
+                      "quality_bonus": 2.5,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  },
+                  {
+                      "item_id": 82,
+                      "slot_number": 0,
+                      "quality_bonus": 5,
+                      "quantity": 3,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 81
+              },
+              "tier": 4
           }
-        ],
-        "requirements": [
-          {
-            "item_id": 9,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 16,
-            "slot_number": 0,
-            "quality_bonus": 1.25,
-            "quantity": 3,
-            "keep_after_action": false
-          }
-        ],
-        "slot_defaults": {
-          "0": 9
-        },
-        "tier": 1
-      },
-      "7": {
-        "id": 7,
-        "skill_id": 5,
-        "skill_level": 1,
-        "name": {
-          "de": "Kupfer Angelrute",
-          "en": "Copper Fishing Rod"
-        },
-        "image": "copper_fishing_rod.png",
-        "experience": 30,
-        "duration": 10000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 21,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.1
-          },
-          {
-            "item_id": 11,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [
-          {
-            "item_id": 9,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 16,
-            "slot_number": 0,
-            "quality_bonus": 1.25,
-            "quantity": 3,
-            "keep_after_action": false
-          }
-        ],
-        "slot_defaults": {
-          "0": 9
-        },
-        "tier": 1
-      },
-      "8": {
-        "id": 8,
-        "skill_id": 5,
-        "skill_level": 1,
-        "name": {
-          "de": "Kupfer Axt",
-          "en": "Copper Axe"
-        },
-        "image": "copper_axe.png",
-        "experience": 30,
-        "duration": 10000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 19,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.1
-          },
-          {
-            "item_id": 12,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [
-          {
-            "item_id": 9,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 16,
-            "slot_number": 0,
-            "quality_bonus": 1.25,
-            "quantity": 3,
-            "keep_after_action": false
-          }
-        ],
-        "slot_defaults": {
-          "0": 9
-        },
-        "tier": 1
-      },
-      "9": {
-        "id": 9,
-        "skill_id": 5,
-        "skill_level": 1,
-        "name": {
-          "de": "Kupfer Hammer",
-          "en": "Copper Hammer"
-        },
-        "image": "copper_hammer.png",
-        "experience": 30,
-        "duration": 10000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 18,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.1
-          },
-          {
-            "item_id": 15,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [
-          {
-            "item_id": 9,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 16,
-            "slot_number": 0,
-            "quality_bonus": 1.25,
-            "quantity": 3,
-            "keep_after_action": false
-          }
-        ],
-        "slot_defaults": {
-          "0": 9
-        },
-        "tier": 1
-      },
-      "13": {
-        "id": 13,
-        "skill_id": 5,
-        "skill_level": 15,
-        "name": {
-          "de": "Eisen Spitzhacke",
-          "en": "Iron Pickaxe"
-        },
-        "image": "iron_pickaxe.png",
-        "experience": 60,
-        "duration": 12000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 23,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.01
-          },
-          {
-            "item_id": 22,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.1
-          },
-          {
-            "item_id": 13,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [
-          {
-            "item_id": 34,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 35,
-            "slot_number": 0,
-            "quality_bonus": 1.25,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 36,
-            "slot_number": 0,
-            "quality_bonus": 2.5,
-            "quantity": 3,
-            "keep_after_action": false
-          }
-        ],
-        "slot_defaults": {
-          "0": 34
-        },
-        "tier": 2
-      },
-      "14": {
-        "id": 14,
-        "skill_id": 5,
-        "skill_level": 15,
-        "name": {
-          "de": "Eisen Hammer",
-          "en": "Iron Hammer"
-        },
-        "image": "iron_hammer.png",
-        "experience": 60,
-        "duration": 12000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 29,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.01
-          },
-          {
-            "item_id": 28,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.1
-          },
-          {
-            "item_id": 27,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [
-          {
-            "item_id": 34,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 35,
-            "slot_number": 0,
-            "quality_bonus": 1.25,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 36,
-            "slot_number": 0,
-            "quality_bonus": 2.5,
-            "quantity": 3,
-            "keep_after_action": false
-          }
-        ],
-        "slot_defaults": {
-          "0": 34
-        },
-        "tier": 2
-      },
-      "15": {
-        "id": 15,
-        "skill_id": 5,
-        "skill_level": 15,
-        "name": {
-          "de": "Eisen Axt",
-          "en": "Iron Axe"
-        },
-        "image": "iron_axe.png",
-        "experience": 60,
-        "duration": 12000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 26,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.01
-          },
-          {
-            "item_id": 25,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.1
-          },
-          {
-            "item_id": 24,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [
-          {
-            "item_id": 34,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 35,
-            "slot_number": 0,
-            "quality_bonus": 1.25,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 36,
-            "slot_number": 0,
-            "quality_bonus": 2.5,
-            "quantity": 3,
-            "keep_after_action": false
-          }
-        ],
-        "slot_defaults": {
-          "0": 34
-        },
-        "tier": 2
-      },
-      "23": {
-        "id": 23,
-        "skill_id": 5,
-        "skill_level": 15,
-        "name": {
-          "de": "Eisen Angelrute",
-          "en": "Iron Fishing Rod"
-        },
-        "image": "iron_fishing_rod.png",
-        "experience": 60,
-        "duration": 12000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 48,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.01
-          },
-          {
-            "item_id": 39,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.1
-          },
-          {
-            "item_id": 38,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [
-          {
-            "item_id": 34,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 35,
-            "slot_number": 0,
-            "quality_bonus": 1.25,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 36,
-            "slot_number": 0,
-            "quality_bonus": 2.5,
-            "quantity": 3,
-            "keep_after_action": false
-          }
-        ],
-        "slot_defaults": {
-          "0": 34
-        },
-        "tier": 2
-      },
-      "24": {
-        "id": 24,
-        "skill_id": 5,
-        "skill_level": 30,
-        "name": {
-          "de": "Silber Angelrute",
-          "en": "Silver Fishing Rod"
-        },
-        "image": "silver_fishing_rod.png",
-        "experience": 90,
-        "duration": 14000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 64,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.0025
-          },
-          {
-            "item_id": 49,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.01
-          },
-          {
-            "item_id": 50,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.1
-          },
-          {
-            "item_id": 51,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [
-          {
-            "item_id": 44,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 45,
-            "slot_number": 0,
-            "quality_bonus": 1.25,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 46,
-            "slot_number": 0,
-            "quality_bonus": 2.5,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 47,
-            "slot_number": 0,
-            "quality_bonus": 5,
-            "quantity": 3,
-            "keep_after_action": false
-          }
-        ],
-        "slot_defaults": {
-          "0": 44
-        },
-        "tier": 3
-      },
-      "25": {
-        "id": 25,
-        "skill_id": 5,
-        "skill_level": 30,
-        "name": {
-          "de": "Silber Axt",
-          "en": "Silver Axe"
-        },
-        "image": "silver_axe.png",
-        "experience": 90,
-        "duration": 14000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 62,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.0025
-          },
-          {
-            "item_id": 55,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.01
-          },
-          {
-            "item_id": 56,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.1
-          },
-          {
-            "item_id": 57,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [
-          {
-            "item_id": 44,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 45,
-            "slot_number": 0,
-            "quality_bonus": 1.25,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 46,
-            "slot_number": 0,
-            "quality_bonus": 2.5,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 47,
-            "slot_number": 0,
-            "quality_bonus": 5,
-            "quantity": 3,
-            "keep_after_action": false
-          }
-        ],
-        "slot_defaults": {
-          "0": 44
-        },
-        "tier": 3
-      },
-      "26": {
-        "id": 26,
-        "skill_id": 5,
-        "skill_level": 30,
-        "name": {
-          "de": "Silber Hammer",
-          "en": "Silver Hammer"
-        },
-        "image": "silver_hammer.png",
-        "experience": 90,
-        "duration": 14000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 63,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.0025
-          },
-          {
-            "item_id": 52,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.01
-          },
-          {
-            "item_id": 53,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.1
-          },
-          {
-            "item_id": 54,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [
-          {
-            "item_id": 44,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 45,
-            "slot_number": 0,
-            "quality_bonus": 1.25,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 46,
-            "slot_number": 0,
-            "quality_bonus": 2.5,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 47,
-            "slot_number": 0,
-            "quality_bonus": 5,
-            "quantity": 3,
-            "keep_after_action": false
-          }
-        ],
-        "slot_defaults": {
-          "0": 44
-        },
-        "tier": 3
-      },
-      "27": {
-        "id": 27,
-        "skill_id": 5,
-        "skill_level": 30,
-        "name": {
-          "de": "Silber Spitzhacke",
-          "en": "Silver Pickaxe"
-        },
-        "image": "silver_pickaxe.png",
-        "experience": 90,
-        "duration": 14000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 61,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.0025
-          },
-          {
-            "item_id": 58,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.01
-          },
-          {
-            "item_id": 59,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.1
-          },
-          {
-            "item_id": 60,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [
-          {
-            "item_id": 44,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 45,
-            "slot_number": 0,
-            "quality_bonus": 1.25,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 46,
-            "slot_number": 0,
-            "quality_bonus": 2.5,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 47,
-            "slot_number": 0,
-            "quality_bonus": 5,
-            "quantity": 3,
-            "keep_after_action": false
-          }
-        ],
-        "slot_defaults": {
-          "0": 44
-        },
-        "tier": 3
-      },
-      "28": {
-        "id": 28,
-        "skill_id": 5,
-        "skill_level": 1,
-        "name": {
-          "de": "Kupfer Schmelzstulpen",
-          "en": "Copper Smelting Gauntlets"
-        },
-        "image": "copper_smelting_gauntlets.png",
-        "experience": 30,
-        "duration": 10000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 67,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.1
-          },
-          {
-            "item_id": 68,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [
-          {
-            "item_id": 9,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 16,
-            "slot_number": 0,
-            "quality_bonus": 1.25,
-            "quantity": 3,
-            "keep_after_action": false
-          }
-        ],
-        "slot_defaults": {
-          "0": 9
-        },
-        "tier": 1
-      },
-      "29": {
-        "id": 29,
-        "skill_id": 5,
-        "skill_level": 15,
-        "name": {
-          "de": "Eisen Schmelzstulpen",
-          "en": "Iron Smelting Gauntlets"
-        },
-        "image": "iron_smelting_gauntlets.png",
-        "experience": 60,
-        "duration": 12000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 69,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.01
-          },
-          {
-            "item_id": 70,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.1
-          },
-          {
-            "item_id": 71,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [
-          {
-            "item_id": 34,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 35,
-            "slot_number": 0,
-            "quality_bonus": 1.25,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 36,
-            "slot_number": 0,
-            "quality_bonus": 2.5,
-            "quantity": 3,
-            "keep_after_action": false
-          }
-        ],
-        "slot_defaults": {
-          "0": 34
-        },
-        "tier": 2
-      },
-      "30": {
-        "id": 30,
-        "skill_id": 5,
-        "skill_level": 30,
-        "name": {
-          "de": "Silber Schmelzstulpen",
-          "en": "Silver Smelting Gauntlets"
-        },
-        "image": "silver_smelting_gauntlets.png",
-        "experience": 90,
-        "duration": 14000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 72,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.0025
-          },
-          {
-            "item_id": 75,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.01
-          },
-          {
-            "item_id": 74,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.1
-          },
-          {
-            "item_id": 73,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [
-          {
-            "item_id": 44,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 45,
-            "slot_number": 0,
-            "quality_bonus": 1.25,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 46,
-            "slot_number": 0,
-            "quality_bonus": 2.5,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 47,
-            "slot_number": 0,
-            "quality_bonus": 5,
-            "quantity": 3,
-            "keep_after_action": false
-          }
-        ],
-        "slot_defaults": {
-          "0": 44
-        },
-        "tier": 3
-      },
-      "36": {
-        "id": 36,
-        "skill_id": 5,
-        "skill_level": 55,
-        "name": {
-          "de": "Goldene Schmelzstulpen",
-          "en": "Golden Smelting Gauntlets"
-        },
-        "image": "golden_smelting_gauntlets.png",
-        "experience": 120,
-        "duration": 16000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 121,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.0003
-          },
-          {
-            "item_id": 118,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.001
-          },
-          {
-            "item_id": 119,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.01
-          },
-          {
-            "item_id": 120,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [
-          {
-            "item_id": 81,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 84,
-            "slot_number": 0,
-            "quality_bonus": 1.25,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 83,
-            "slot_number": 0,
-            "quality_bonus": 2.5,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 82,
-            "slot_number": 0,
-            "quality_bonus": 5,
-            "quantity": 3,
-            "keep_after_action": false
-          }
-        ],
-        "slot_defaults": {
-          "0": 81
-        },
-        "tier": 4
-      },
-      "37": {
-        "id": 37,
-        "skill_id": 5,
-        "skill_level": 55,
-        "name": {
-          "de": "Goldene Spitzhacke",
-          "en": "Golden Pickaxe"
-        },
-        "image": "golden_pickaxe.png",
-        "experience": 120,
-        "duration": 16000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 102,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.0003
-          },
-          {
-            "item_id": 101,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.001
-          },
-          {
-            "item_id": 100,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.01
-          },
-          {
-            "item_id": 99,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [
-          {
-            "item_id": 81,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 84,
-            "slot_number": 0,
-            "quality_bonus": 1.25,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 83,
-            "slot_number": 0,
-            "quality_bonus": 2.5,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 82,
-            "slot_number": 0,
-            "quality_bonus": 5,
-            "quantity": 3,
-            "keep_after_action": false
-          }
-        ],
-        "slot_defaults": {
-          "0": 81
-        },
-        "tier": 4
-      },
-      "38": {
-        "id": 38,
-        "skill_id": 5,
-        "skill_level": 55,
-        "name": {
-          "de": "Goldener Hammer",
-          "en": "Golden Hammer"
-        },
-        "image": "golden_hammer.png",
-        "experience": 120,
-        "duration": 16000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 112,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.0003
-          },
-          {
-            "item_id": 111,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.001
-          },
-          {
-            "item_id": 110,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.01
-          },
-          {
-            "item_id": 113,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [
-          {
-            "item_id": 81,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 84,
-            "slot_number": 0,
-            "quality_bonus": 1.25,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 83,
-            "slot_number": 0,
-            "quality_bonus": 2.5,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 82,
-            "slot_number": 0,
-            "quality_bonus": 5,
-            "quantity": 3,
-            "keep_after_action": false
-          }
-        ],
-        "slot_defaults": {
-          "0": 81
-        },
-        "tier": 4
-      },
-      "39": {
-        "id": 39,
-        "skill_id": 5,
-        "skill_level": 55,
-        "name": {
-          "de": "Goldene Axt",
-          "en": "Golden Axe"
-        },
-        "image": "golden_axe.png",
-        "experience": 120,
-        "duration": 16000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 106,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.0003
-          },
-          {
-            "item_id": 109,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.001
-          },
-          {
-            "item_id": 108,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.01
-          },
-          {
-            "item_id": 107,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [
-          {
-            "item_id": 81,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 84,
-            "slot_number": 0,
-            "quality_bonus": 1.25,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 83,
-            "slot_number": 0,
-            "quality_bonus": 2.5,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 82,
-            "slot_number": 0,
-            "quality_bonus": 5,
-            "quantity": 3,
-            "keep_after_action": false
-          }
-        ],
-        "slot_defaults": {
-          "0": 81
-        },
-        "tier": 4
-      },
-      "40": {
-        "id": 40,
-        "skill_id": 5,
-        "skill_level": 55,
-        "name": {
-          "de": "Goldene Angelrute",
-          "en": "Golden Fishing Rod"
-        },
-        "image": "golden_fishing_rod.png",
-        "experience": 120,
-        "duration": 16000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 117,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.0003
-          },
-          {
-            "item_id": 116,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.001
-          },
-          {
-            "item_id": 115,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 0.01
-          },
-          {
-            "item_id": 114,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [
-          {
-            "item_id": 81,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 84,
-            "slot_number": 0,
-            "quality_bonus": 1.25,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 83,
-            "slot_number": 0,
-            "quality_bonus": 2.5,
-            "quantity": 3,
-            "keep_after_action": false
-          },
-          {
-            "item_id": 82,
-            "slot_number": 0,
-            "quality_bonus": 5,
-            "quantity": 3,
-            "keep_after_action": false
-          }
-        ],
-        "slot_defaults": {
-          "0": 81
-        },
-        "tier": 4
       }
-    }
   },
   "6": {
-    "id": 6,
-    "actions": {
-      "10": {
-        "id": 10,
-        "skill_id": 6,
-        "skill_level": 1,
-        "name": {
-          "de": "Kiefer",
-          "en": "Pine"
-        },
-        "image": "pine.png",
-        "experience": 5,
-        "duration": 5000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 20,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
+      "id": 6,
+      "actions": {
+          "10": {
+              "id": 10,
+              "skill_id": 6,
+              "skill_level": 1,
+              "name": {
+                  "de": "Kiefer",
+                  "en": "Pine"
+              },
+              "image": "pine.png",
+              "experience": 5,
+              "duration": 5000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 20,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [],
+              "slot_defaults": {},
+              "tier": 1
+          },
+          "19": {
+              "id": 19,
+              "skill_id": 6,
+              "skill_level": 15,
+              "name": {
+                  "de": "Birke",
+                  "en": "Birch"
+              },
+              "image": "birch.png",
+              "experience": 10,
+              "duration": 7000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 65,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [],
+              "slot_defaults": {},
+              "tier": 2
+          },
+          "20": {
+              "id": 20,
+              "skill_id": 6,
+              "skill_level": 30,
+              "name": {
+                  "de": "Eiche",
+                  "en": "Oak"
+              },
+              "image": "oak.png",
+              "experience": 15,
+              "duration": 9000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 66,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [],
+              "slot_defaults": {},
+              "tier": 3
+          },
+          "43": {
+              "id": 43,
+              "skill_id": 6,
+              "skill_level": 55,
+              "name": {
+                  "de": "Weide",
+                  "en": "Willow"
+              },
+              "image": "willow.png",
+              "experience": 20,
+              "duration": 11000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 122,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [],
+              "slot_defaults": {},
+              "tier": 4
           }
-        ],
-        "requirements": [],
-        "slot_defaults": {},
-        "tier": 1
-      },
-      "19": {
-        "id": 19,
-        "skill_id": 6,
-        "skill_level": 15,
-        "name": {
-          "de": "Birke",
-          "en": "Birch"
-        },
-        "image": "birch.png",
-        "experience": 10,
-        "duration": 7000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 65,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [],
-        "slot_defaults": {},
-        "tier": 2
-      },
-      "20": {
-        "id": 20,
-        "skill_id": 6,
-        "skill_level": 30,
-        "name": {
-          "de": "Eiche",
-          "en": "Oak"
-        },
-        "image": "oak.png",
-        "experience": 15,
-        "duration": 9000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 66,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [],
-        "slot_defaults": {},
-        "tier": 3
-      },
-      "43": {
-        "id": 43,
-        "skill_id": 6,
-        "skill_level": 55,
-        "name": {
-          "de": "Weide",
-          "en": "Willow"
-        },
-        "image": "willow.png",
-        "experience": 20,
-        "duration": 11000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 122,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [],
-        "slot_defaults": {},
-        "tier": 4
       }
-    }
   },
   "7": {
-    "id": 7,
-    "actions": {
-      "16": {
-        "id": 16,
-        "skill_id": 7,
-        "skill_level": 1,
-        "name": {
-          "de": "Kiefer",
-          "en": "Pine"
-        },
-        "image": "pine_log.png",
-        "experience": 5,
-        "duration": 5000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 6,
-            "quantity": 1,
-            "max_quantity": 3,
-            "drop_rate": 1
+      "id": 7,
+      "actions": {
+          "16": {
+              "id": 16,
+              "skill_id": 7,
+              "skill_level": 1,
+              "name": {
+                  "de": "Kiefer",
+                  "en": "Pine"
+              },
+              "image": "pine_log.png",
+              "experience": 5,
+              "duration": 5000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 6,
+                      "quantity": 1,
+                      "max_quantity": 3,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 20,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 1,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 20
+              },
+              "tier": 1
+          },
+          "21": {
+              "id": 21,
+              "skill_id": 7,
+              "skill_level": 15,
+              "name": {
+                  "de": "Birke",
+                  "en": "Birch"
+              },
+              "image": "birch_log.png",
+              "experience": 10,
+              "duration": 7000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 6,
+                      "quantity": 2,
+                      "max_quantity": 4,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 65,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 1,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 65
+              },
+              "tier": 2
+          },
+          "22": {
+              "id": 22,
+              "skill_id": 7,
+              "skill_level": 30,
+              "name": {
+                  "de": "Eiche",
+                  "en": "Oak"
+              },
+              "image": "oak_log.png",
+              "experience": 15,
+              "duration": 9000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 6,
+                      "quantity": 3,
+                      "max_quantity": 5,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 66,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 1,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 66
+              },
+              "tier": 3
+          },
+          "44": {
+              "id": 44,
+              "skill_id": 7,
+              "skill_level": 55,
+              "name": {
+                  "de": "Weide",
+                  "en": "Willow"
+              },
+              "image": "willow_log.png",
+              "experience": 20,
+              "duration": 11000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 6,
+                      "quantity": 4,
+                      "max_quantity": 6,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [
+                  {
+                      "item_id": 122,
+                      "slot_number": 0,
+                      "quality_bonus": 0,
+                      "quantity": 1,
+                      "keep_after_action": false
+                  }
+              ],
+              "slot_defaults": {
+                  "0": 122
+              },
+              "tier": 4
           }
-        ],
-        "requirements": [
-          {
-            "item_id": 20,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 1,
-            "keep_after_action": false
-          }
-        ],
-        "slot_defaults": {
-          "0": 20
-        },
-        "tier": 1
-      },
-      "21": {
-        "id": 21,
-        "skill_id": 7,
-        "skill_level": 15,
-        "name": {
-          "de": "Birke",
-          "en": "Birch"
-        },
-        "image": "birch_log.png",
-        "experience": 10,
-        "duration": 7000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 6,
-            "quantity": 2,
-            "max_quantity": 4,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [
-          {
-            "item_id": 65,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 1,
-            "keep_after_action": false
-          }
-        ],
-        "slot_defaults": {
-          "0": 65
-        },
-        "tier": 2
-      },
-      "22": {
-        "id": 22,
-        "skill_id": 7,
-        "skill_level": 30,
-        "name": {
-          "de": "Eiche",
-          "en": "Oak"
-        },
-        "image": "oak_log.png",
-        "experience": 15,
-        "duration": 9000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 6,
-            "quantity": 3,
-            "max_quantity": 5,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [
-          {
-            "item_id": 66,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 1,
-            "keep_after_action": false
-          }
-        ],
-        "slot_defaults": {
-          "0": 66
-        },
-        "tier": 3
-      },
-      "44": {
-        "id": 44,
-        "skill_id": 7,
-        "skill_level": 55,
-        "name": {
-          "de": "Weide",
-          "en": "Willow"
-        },
-        "image": "willow_log.png",
-        "experience": 20,
-        "duration": 11000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 6,
-            "quantity": 4,
-            "max_quantity": 6,
-            "drop_rate": 1
-          }
-        ],
-        "requirements": [
-          {
-            "item_id": 122,
-            "slot_number": 0,
-            "quality_bonus": 0,
-            "quantity": 1,
-            "keep_after_action": false
-          }
-        ],
-        "slot_defaults": {
-          "0": 122
-        },
-        "tier": 4
       }
-    }
   },
   "8": {
-    "id": 8,
-    "actions": {
-      "35": {
-        "id": 35,
-        "skill_id": 8,
-        "skill_level": 1,
-        "name": {
-          "en": "Combat test"
-        },
-        "image": "missing.png",
-        "experience": 1,
-        "duration": 1000,
-        "single_reward": true,
-        "rewards": [
-          {
-            "item_id": 7,
-            "quantity": 1,
-            "max_quantity": 1,
-            "drop_rate": 1
+      "id": 8,
+      "actions": {
+          "35": {
+              "id": 35,
+              "skill_id": 8,
+              "skill_level": 1,
+              "name": {
+                  "en": "Combat test"
+              },
+              "image": "missing.png",
+              "experience": 1,
+              "duration": 1000,
+              "single_reward": true,
+              "rewards": [
+                  {
+                      "item_id": 7,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 0
+                  },
+                  {
+                      "item_id": 7,
+                      "quantity": 1,
+                      "max_quantity": 1,
+                      "drop_rate": 1
+                  }
+              ],
+              "requirements": [],
+              "slot_defaults": {},
+              "tier": 0
           }
-        ],
-        "requirements": [],
-        "slot_defaults": {},
-        "tier": 0
       }
-    }
   }
 }

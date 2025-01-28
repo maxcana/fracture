@@ -26,3 +26,6 @@ items.json
 
 
 can convert js object to json with https://www.convertsimple.com/convert-javascript-to-json/
+
+
+another way to source it is with the javascript console, simply run the script and copy the object for actions, and items.
