@@ -148,7 +148,7 @@ def run():
 
     
     # calculate drops from seed
-    drops = update_progress(1000, active_action, rng)
+    drops = update_progress(100000, active_action, rng)
 
     # config
     interesting_qualities = ["RARE", "EPIC", "LEGENDARY"]

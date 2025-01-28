@@ -12,7 +12,6 @@
     "quality": "COMMON",
     "image": "copper_ore.png",
     "stats": {},
-    "equippable": false,
     "tier": 0,
     "skill_requirement": null,
     "level_requirement": 0
@@ -20,17 +19,16 @@
   "2": {
     "id": 2,
     "name": {
-      "de": "Roher Lachs",
-      "en": "Raw Salmon"
+      "de": "Roher Karpfen",
+      "en": "Raw Carp"
     },
     "description": {},
     "item_type": "CRAFTING",
     "item_slot": null,
     "sell_price": 6,
     "quality": "COMMON",
-    "image": "salmon.png",
+    "image": "carp.png",
     "stats": {},
-    "equippable": false,
     "tier": 0,
     "skill_requirement": null,
     "level_requirement": 0
@@ -48,7 +46,6 @@
     "quality": "EPIC",
     "image": "diamond.png",
     "stats": {},
-    "equippable": false,
     "tier": 0,
     "skill_requirement": null,
     "level_requirement": 0
@@ -69,7 +66,6 @@
     "quality": "LEGENDARY",
     "image": "heart.png",
     "stats": {},
-    "equippable": false,
     "tier": 0,
     "skill_requirement": null,
     "level_requirement": 0
@@ -77,17 +73,16 @@
   "5": {
     "id": 5,
     "name": {
-      "de": "Gekochter Lachs",
-      "en": "Cooked Salmon"
+      "de": "Gekochter Carp",
+      "en": "Cooked Carp"
     },
     "description": {},
     "item_type": "CONSUMABLE",
     "item_slot": "FOOD",
     "sell_price": 8,
     "quality": "COMMON",
-    "image": "cooked_salmon.png",
+    "image": "cooked_carp.png",
     "stats": {},
-    "equippable": true,
     "tier": 0,
     "skill_requirement": null,
     "level_requirement": 0
@@ -105,7 +100,6 @@
     "quality": "COMMON",
     "image": "coal.png",
     "stats": {},
-    "equippable": false,
     "tier": 0,
     "skill_requirement": null,
     "level_requirement": 0
@@ -126,7 +120,6 @@
     "quality": "POOR",
     "image": "starfish.png",
     "stats": {},
-    "equippable": false,
     "tier": 0,
     "skill_requirement": null,
     "level_requirement": 0
@@ -144,7 +137,6 @@
     "quality": "COMMON",
     "image": "worm.png",
     "stats": {},
-    "equippable": false,
     "tier": 0,
     "skill_requirement": null,
     "level_requirement": 0
@@ -162,7 +154,6 @@
     "quality": "COMMON",
     "image": "copper_bar.png",
     "stats": {},
-    "equippable": false,
     "tier": 0,
     "skill_requirement": null,
     "level_requirement": 0
@@ -183,7 +174,6 @@
       "mining_speed": 6,
       "mining_quality": 8
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 1,
     "level_requirement": 1
@@ -203,7 +193,6 @@
     "stats": {
       "fishing_speed": 6
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 2,
     "level_requirement": 1
@@ -223,7 +212,6 @@
     "stats": {
       "woodcutting_speed": 6
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 6,
     "level_requirement": 1
@@ -244,7 +232,6 @@
       "mining_speed": 12,
       "mining_quality": 16
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 1,
     "level_requirement": 15
@@ -262,7 +249,6 @@
     "quality": "UNCOMMON",
     "image": "copper_ore.png",
     "stats": {},
-    "equippable": false,
     "tier": 0,
     "skill_requirement": null,
     "level_requirement": 0
@@ -283,7 +269,6 @@
       "smithing_speed": 6,
       "smithing_quality": 8
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 5,
     "level_requirement": 1
@@ -297,11 +282,10 @@
     "description": {},
     "item_type": "CRAFTING",
     "item_slot": null,
-    "sell_price": 18,
+    "sell_price": 24,
     "quality": "UNCOMMON",
     "image": "copper_bar.png",
     "stats": {},
-    "equippable": false,
     "tier": 0,
     "skill_requirement": null,
     "level_requirement": 0
@@ -322,7 +306,6 @@
       "mining_speed": 9,
       "mining_quality": 11
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 1,
     "level_requirement": 1
@@ -343,7 +326,6 @@
       "smithing_speed": 9,
       "smithing_quality": 11
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 5,
     "level_requirement": 1
@@ -363,7 +345,6 @@
     "stats": {
       "woodcutting_speed": 9
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 6,
     "level_requirement": 1
@@ -381,7 +362,6 @@
     "quality": "COMMON",
     "image": "pine_log.png",
     "stats": {},
-    "equippable": false,
     "tier": 0,
     "skill_requirement": null,
     "level_requirement": 0
@@ -401,7 +381,6 @@
     "stats": {
       "fishing_speed": 9
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 2,
     "level_requirement": 1
@@ -422,7 +401,6 @@
       "mining_speed": 15,
       "mining_quality": 19
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 1,
     "level_requirement": 15
@@ -443,7 +421,6 @@
       "mining_speed": 18,
       "mining_quality": 22
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 1,
     "level_requirement": 15
@@ -463,7 +440,6 @@
     "stats": {
       "woodcutting_speed": 12
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 6,
     "level_requirement": 15
@@ -483,7 +459,6 @@
     "stats": {
       "woodcutting_speed": 15
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 6,
     "level_requirement": 15
@@ -503,7 +478,6 @@
     "stats": {
       "woodcutting_speed": 18
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 6,
     "level_requirement": 15
@@ -524,7 +498,6 @@
       "smithing_speed": 12,
       "smithing_quality": 16
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 5,
     "level_requirement": 15
@@ -545,7 +518,6 @@
       "smithing_speed": 15,
       "smithing_quality": 19
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 5,
     "level_requirement": 15
@@ -566,7 +538,6 @@
       "smithing_speed": 18,
       "smithing_quality": 22
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 5,
     "level_requirement": 15
@@ -584,7 +555,6 @@
     "quality": "COMMON",
     "image": "iron_ore.png",
     "stats": {},
-    "equippable": false,
     "tier": 0,
     "skill_requirement": null,
     "level_requirement": 0
@@ -602,7 +572,6 @@
     "quality": "UNCOMMON",
     "image": "iron_ore.png",
     "stats": {},
-    "equippable": false,
     "tier": 0,
     "skill_requirement": null,
     "level_requirement": 0
@@ -620,7 +589,6 @@
     "quality": "RARE",
     "image": "iron_ore.png",
     "stats": {},
-    "equippable": false,
     "tier": 0,
     "skill_requirement": null,
     "level_requirement": 0
@@ -638,7 +606,6 @@
     "quality": "COMMON",
     "image": "iron_bar.png",
     "stats": {},
-    "equippable": false,
     "tier": 0,
     "skill_requirement": null,
     "level_requirement": 0
@@ -656,7 +623,6 @@
     "quality": "UNCOMMON",
     "image": "iron_bar.png",
     "stats": {},
-    "equippable": false,
     "tier": 0,
     "skill_requirement": null,
     "level_requirement": 0
@@ -674,7 +640,6 @@
     "quality": "RARE",
     "image": "iron_bar.png",
     "stats": {},
-    "equippable": false,
     "tier": 0,
     "skill_requirement": null,
     "level_requirement": 0
@@ -692,7 +657,6 @@
     "quality": "COMMON",
     "image": "missing.png",
     "stats": {},
-    "equippable": false,
     "tier": 0,
     "skill_requirement": null,
     "level_requirement": 0
@@ -712,7 +676,6 @@
     "stats": {
       "fishing_speed": 12
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 2,
     "level_requirement": 15
@@ -732,7 +695,6 @@
     "stats": {
       "fishing_speed": 15
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 2,
     "level_requirement": 15
@@ -750,7 +712,6 @@
     "quality": "COMMON",
     "image": "silver_ore.png",
     "stats": {},
-    "equippable": false,
     "tier": 0,
     "skill_requirement": null,
     "level_requirement": 0
@@ -768,7 +729,6 @@
     "quality": "UNCOMMON",
     "image": "silver_ore.png",
     "stats": {},
-    "equippable": false,
     "tier": 0,
     "skill_requirement": null,
     "level_requirement": 0
@@ -786,7 +746,6 @@
     "quality": "RARE",
     "image": "silver_ore.png",
     "stats": {},
-    "equippable": false,
     "tier": 0,
     "skill_requirement": null,
     "level_requirement": 0
@@ -804,7 +763,6 @@
     "quality": "EPIC",
     "image": "silver_ore.png",
     "stats": {},
-    "equippable": false,
     "tier": 0,
     "skill_requirement": null,
     "level_requirement": 0
@@ -822,7 +780,6 @@
     "quality": "COMMON",
     "image": "silver_bar.png",
     "stats": {},
-    "equippable": false,
     "tier": 0,
     "skill_requirement": null,
     "level_requirement": 0
@@ -840,7 +797,6 @@
     "quality": "UNCOMMON",
     "image": "silver_bar.png",
     "stats": {},
-    "equippable": false,
     "tier": 0,
     "skill_requirement": null,
     "level_requirement": 0
@@ -858,7 +814,6 @@
     "quality": "RARE",
     "image": "silver_bar.png",
     "stats": {},
-    "equippable": false,
     "tier": 0,
     "skill_requirement": null,
     "level_requirement": 0
@@ -876,7 +831,6 @@
     "quality": "EPIC",
     "image": "silver_bar.png",
     "stats": {},
-    "equippable": false,
     "tier": 0,
     "skill_requirement": null,
     "level_requirement": 0
@@ -896,7 +850,6 @@
     "stats": {
       "fishing_speed": 18
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 2,
     "level_requirement": 15
@@ -916,7 +869,6 @@
     "stats": {
       "fishing_speed": 24
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 2,
     "level_requirement": 30
@@ -936,7 +888,6 @@
     "stats": {
       "fishing_speed": 21
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 2,
     "level_requirement": 30
@@ -956,7 +907,6 @@
     "stats": {
       "fishing_speed": 18
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 2,
     "level_requirement": 30
@@ -977,7 +927,6 @@
       "smithing_speed": 24,
       "smithing_quality": 30
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 5,
     "level_requirement": 30
@@ -998,7 +947,6 @@
       "smithing_speed": 21,
       "smithing_quality": 27
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 5,
     "level_requirement": 30
@@ -1019,7 +967,6 @@
       "smithing_speed": 18,
       "smithing_quality": 24
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 5,
     "level_requirement": 30
@@ -1039,7 +986,6 @@
     "stats": {
       "woodcutting_speed": 24
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 6,
     "level_requirement": 30
@@ -1059,7 +1005,6 @@
     "stats": {
       "woodcutting_speed": 21
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 6,
     "level_requirement": 30
@@ -1079,7 +1024,6 @@
     "stats": {
       "woodcutting_speed": 18
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 6,
     "level_requirement": 30
@@ -1100,7 +1044,6 @@
       "mining_speed": 24,
       "mining_quality": 30
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 1,
     "level_requirement": 30
@@ -1121,7 +1064,6 @@
       "mining_speed": 21,
       "mining_quality": 27
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 1,
     "level_requirement": 30
@@ -1142,7 +1084,6 @@
       "mining_speed": 18,
       "mining_quality": 24
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 1,
     "level_requirement": 30
@@ -1163,7 +1104,6 @@
       "mining_speed": 28,
       "mining_quality": 34
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 1,
     "level_requirement": 30
@@ -1183,7 +1123,6 @@
     "stats": {
       "woodcutting_speed": 28
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 6,
     "level_requirement": 30
@@ -1204,7 +1143,6 @@
       "smithing_speed": 28,
       "smithing_quality": 34
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 5,
     "level_requirement": 30
@@ -1224,7 +1162,6 @@
     "stats": {
       "fishing_speed": 28
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 2,
     "level_requirement": 30
@@ -1238,11 +1175,10 @@
     "description": {},
     "item_type": "CRAFTING",
     "item_slot": null,
-    "sell_price": 4,
+    "sell_price": 8,
     "quality": "COMMON",
     "image": "birch_log.png",
     "stats": {},
-    "equippable": false,
     "tier": 0,
     "skill_requirement": null,
     "level_requirement": 0
@@ -1256,11 +1192,10 @@
     "description": {},
     "item_type": "CRAFTING",
     "item_slot": null,
-    "sell_price": 4,
+    "sell_price": 12,
     "quality": "COMMON",
     "image": "oak_log.png",
     "stats": {},
-    "equippable": false,
     "tier": 0,
     "skill_requirement": null,
     "level_requirement": 0
@@ -1281,7 +1216,6 @@
       "smelting_speed": 9,
       "smelting_quality": 11
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 4,
     "level_requirement": 1
@@ -1302,7 +1236,6 @@
       "smelting_speed": 6,
       "smelting_quality": 8
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 4,
     "level_requirement": 1
@@ -1323,7 +1256,6 @@
       "smelting_speed": 18,
       "smelting_quality": 22
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 4,
     "level_requirement": 15
@@ -1344,7 +1276,6 @@
       "smelting_speed": 15,
       "smelting_quality": 19
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 4,
     "level_requirement": 15
@@ -1365,7 +1296,6 @@
       "smelting_speed": 12,
       "smelting_quality": 16
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 4,
     "level_requirement": 15
@@ -1386,7 +1316,6 @@
       "smelting_speed": 28,
       "smelting_quality": 34
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 4,
     "level_requirement": 30
@@ -1407,7 +1336,6 @@
       "smelting_speed": 18,
       "smelting_quality": 24
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 4,
     "level_requirement": 30
@@ -1428,7 +1356,6 @@
       "smelting_speed": 21,
       "smelting_quality": 27
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 4,
     "level_requirement": 30
@@ -1449,7 +1376,6 @@
       "smelting_speed": 24,
       "smelting_quality": 30
     },
-    "equippable": true,
     "tier": 0,
     "skill_requirement": 4,
     "level_requirement": 30
@@ -1457,17 +1383,16 @@
   "76": {
     "id": 76,
     "name": {
-      "de": "Roher Adlerfish",
-      "en": "Raw Meagre"
+      "de": "Roher Barsch",
+      "en": "Raw Bass"
     },
     "description": {},
     "item_type": "CRAFTING",
     "item_slot": null,
     "sell_price": 10,
     "quality": "COMMON",
-    "image": "meagre.png",
+    "image": "bass.png",
     "stats": {},
-    "equippable": false,
     "tier": 0,
     "skill_requirement": null,
     "level_requirement": 0
@@ -1485,7 +1410,6 @@
     "quality": "COMMON",
     "image": "shrimp.png",
     "stats": {},
-    "equippable": true,
     "tier": 0,
     "skill_requirement": null,
     "level_requirement": 0
@@ -1493,17 +1417,16 @@
   "78": {
     "id": 78,
     "name": {
-      "de": "Gekochter Adlerfish",
-      "en": "Cooked Meagre"
+      "de": "Gekochter Barsch",
+      "en": "Cooked Bass"
     },
     "description": {},
     "item_type": "CRAFTING",
     "item_slot": "FOOD",
     "sell_price": 12,
     "quality": "COMMON",
-    "image": "cooked_meagre.png",
+    "image": "cooked_bass.png",
     "stats": {},
-    "equippable": false,
     "tier": 0,
     "skill_requirement": null,
     "level_requirement": 0
@@ -1521,7 +1444,6 @@
     "quality": "COMMON",
     "image": "cooked_shrimp.png",
     "stats": {},
-    "equippable": true,
     "tier": 0,
     "skill_requirement": null,
     "level_requirement": 0
@@ -1544,7 +1466,607 @@
     "stats": {
       "fishing_speed": 4
     },
-    "equippable": true,
+    "tier": 0,
+    "skill_requirement": null,
+    "level_requirement": 0
+  },
+  "81": {
+    "id": 81,
+    "name": {
+      "de": "Goldbarren",
+      "en": "Gold Bar"
+    },
+    "description": {},
+    "item_type": "CRAFTING",
+    "item_slot": null,
+    "sell_price": 36,
+    "quality": "COMMON",
+    "image": "gold_bar.png",
+    "stats": {},
+    "tier": 0,
+    "skill_requirement": null,
+    "level_requirement": 0
+  },
+  "82": {
+    "id": 82,
+    "name": {
+      "de": "Goldbarren",
+      "en": "Gold Bar"
+    },
+    "description": {},
+    "item_type": "CRAFTING",
+    "item_slot": null,
+    "sell_price": 144,
+    "quality": "EPIC",
+    "image": "gold_bar.png",
+    "stats": {},
+    "tier": 0,
+    "skill_requirement": null,
+    "level_requirement": 0
+  },
+  "83": {
+    "id": 83,
+    "name": {
+      "de": "Goldbarren",
+      "en": "Gold Bar"
+    },
+    "description": {},
+    "item_type": "CRAFTING",
+    "item_slot": null,
+    "sell_price": 108,
+    "quality": "RARE",
+    "image": "gold_bar.png",
+    "stats": {},
+    "tier": 0,
+    "skill_requirement": null,
+    "level_requirement": 0
+  },
+  "84": {
+    "id": 84,
+    "name": {
+      "de": "Goldbarren",
+      "en": "Gold Bar"
+    },
+    "description": {},
+    "item_type": "CRAFTING",
+    "item_slot": null,
+    "sell_price": 72,
+    "quality": "UNCOMMON",
+    "image": "gold_bar.png",
+    "stats": {},
+    "tier": 0,
+    "skill_requirement": null,
+    "level_requirement": 0
+  },
+  "90": {
+    "id": 90,
+    "name": {
+      "de": "Golderz",
+      "en": "Gold Ore"
+    },
+    "description": {},
+    "item_type": "CRAFTING",
+    "item_slot": null,
+    "sell_price": 8,
+    "quality": "COMMON",
+    "image": "gold_ore.png",
+    "stats": {},
+    "tier": 0,
+    "skill_requirement": null,
+    "level_requirement": 0
+  },
+  "91": {
+    "id": 91,
+    "name": {
+      "de": "Golderz",
+      "en": "Gold Ore"
+    },
+    "description": {},
+    "item_type": "CRAFTING",
+    "item_slot": null,
+    "sell_price": 16,
+    "quality": "UNCOMMON",
+    "image": "gold_ore.png",
+    "stats": {},
+    "tier": 0,
+    "skill_requirement": null,
+    "level_requirement": 0
+  },
+  "92": {
+    "id": 92,
+    "name": {
+      "de": "Golderz",
+      "en": "Gold Ore"
+    },
+    "description": {},
+    "item_type": "CRAFTING",
+    "item_slot": null,
+    "sell_price": 24,
+    "quality": "RARE",
+    "image": "gold_ore.png",
+    "stats": {},
+    "tier": 0,
+    "skill_requirement": null,
+    "level_requirement": 0
+  },
+  "93": {
+    "id": 93,
+    "name": {
+      "de": "Golderz",
+      "en": "Gold Ore"
+    },
+    "description": {},
+    "item_type": "CRAFTING",
+    "item_slot": null,
+    "sell_price": 32,
+    "quality": "EPIC",
+    "image": "gold_ore.png",
+    "stats": {},
+    "tier": 0,
+    "skill_requirement": null,
+    "level_requirement": 0
+  },
+  "99": {
+    "id": 99,
+    "name": {
+      "de": "Goldene Spitzhacke",
+      "en": "Golden Pickaxe"
+    },
+    "description": {},
+    "item_type": "EQUIPMENT",
+    "item_slot": "PICKAXE",
+    "sell_price": 76,
+    "quality": "COMMON",
+    "image": "golden_pickaxe.png",
+    "stats": {
+      "mining_speed": 24,
+      "mining_quality": 32
+    },
+    "tier": 0,
+    "skill_requirement": 1,
+    "level_requirement": 55
+  },
+  "100": {
+    "id": 100,
+    "name": {
+      "de": "Goldene Spitzhacke",
+      "en": "Golden Pickaxe"
+    },
+    "description": {},
+    "item_type": "EQUIPMENT",
+    "item_slot": "PICKAXE",
+    "sell_price": 152,
+    "quality": "UNCOMMON",
+    "image": "golden_pickaxe.png",
+    "stats": {
+      "mining_speed": 27,
+      "mining_quality": 35
+    },
+    "tier": 0,
+    "skill_requirement": 1,
+    "level_requirement": 55
+  },
+  "101": {
+    "id": 101,
+    "name": {
+      "de": "Goldene Spitzhacke",
+      "en": "Golden Pickaxe"
+    },
+    "description": {},
+    "item_type": "EQUIPMENT",
+    "item_slot": "PICKAXE",
+    "sell_price": 228,
+    "quality": "RARE",
+    "image": "golden_pickaxe.png",
+    "stats": {
+      "mining_speed": 30,
+      "mining_quality": 38
+    },
+    "tier": 0,
+    "skill_requirement": 1,
+    "level_requirement": 55
+  },
+  "102": {
+    "id": 102,
+    "name": {
+      "de": "Goldene Spitzhacke",
+      "en": "Golden Pickaxe"
+    },
+    "description": {},
+    "item_type": "EQUIPMENT",
+    "item_slot": "PICKAXE",
+    "sell_price": 304,
+    "quality": "EPIC",
+    "image": "golden_pickaxe.png",
+    "stats": {
+      "mining_speed": 34,
+      "mining_quality": 42
+    },
+    "tier": 0,
+    "skill_requirement": 1,
+    "level_requirement": 55
+  },
+  "106": {
+    "id": 106,
+    "name": {
+      "de": "Goldene Axt",
+      "en": "Golden Axe"
+    },
+    "description": {},
+    "item_type": "EQUIPMENT",
+    "item_slot": "AXE",
+    "sell_price": 304,
+    "quality": "EPIC",
+    "image": "golden_axe.png",
+    "stats": {
+      "woodcutting_speed": 34
+    },
+    "tier": 0,
+    "skill_requirement": 6,
+    "level_requirement": 55
+  },
+  "107": {
+    "id": 107,
+    "name": {
+      "de": "Goldene Axt",
+      "en": "Golden Axe"
+    },
+    "description": {},
+    "item_type": "EQUIPMENT",
+    "item_slot": "AXE",
+    "sell_price": 76,
+    "quality": "COMMON",
+    "image": "golden_axe.png",
+    "stats": {
+      "woodcutting_speed": 24
+    },
+    "tier": 0,
+    "skill_requirement": 6,
+    "level_requirement": 55
+  },
+  "108": {
+    "id": 108,
+    "name": {
+      "de": "Goldene Axt",
+      "en": "Golden Axe"
+    },
+    "description": {},
+    "item_type": "EQUIPMENT",
+    "item_slot": "AXE",
+    "sell_price": 152,
+    "quality": "UNCOMMON",
+    "image": "golden_axe.png",
+    "stats": {
+      "woodcutting_speed": 27
+    },
+    "tier": 0,
+    "skill_requirement": 6,
+    "level_requirement": 55
+  },
+  "109": {
+    "id": 109,
+    "name": {
+      "de": "Goldene Axt",
+      "en": "Golden Axe"
+    },
+    "description": {},
+    "item_type": "EQUIPMENT",
+    "item_slot": "AXE",
+    "sell_price": 228,
+    "quality": "RARE",
+    "image": "golden_axe.png",
+    "stats": {
+      "woodcutting_speed": 30
+    },
+    "tier": 0,
+    "skill_requirement": 6,
+    "level_requirement": 55
+  },
+  "110": {
+    "id": 110,
+    "name": {
+      "de": "Goldener Hammer",
+      "en": "Golden Hammer"
+    },
+    "description": {},
+    "item_type": "EQUIPMENT",
+    "item_slot": "HAMMER",
+    "sell_price": 152,
+    "quality": "UNCOMMON",
+    "image": "golden_hammer.png",
+    "stats": {
+      "smithing_speed": 27,
+      "smithing_quality": 35
+    },
+    "tier": 0,
+    "skill_requirement": 5,
+    "level_requirement": 55
+  },
+  "111": {
+    "id": 111,
+    "name": {
+      "de": "Goldener Hammer",
+      "en": "Golden Hammer"
+    },
+    "description": {},
+    "item_type": "EQUIPMENT",
+    "item_slot": "HAMMER",
+    "sell_price": 228,
+    "quality": "RARE",
+    "image": "golden_hammer.png",
+    "stats": {
+      "smithing_speed": 30,
+      "smithing_quality": 38
+    },
+    "tier": 0,
+    "skill_requirement": 5,
+    "level_requirement": 55
+  },
+  "112": {
+    "id": 112,
+    "name": {
+      "de": "Goldener Hammer",
+      "en": "Golden Hammer"
+    },
+    "description": {},
+    "item_type": "EQUIPMENT",
+    "item_slot": "HAMMER",
+    "sell_price": 304,
+    "quality": "EPIC",
+    "image": "golden_hammer.png",
+    "stats": {
+      "smithing_speed": 34,
+      "smithing_quality": 42
+    },
+    "tier": 0,
+    "skill_requirement": 5,
+    "level_requirement": 55
+  },
+  "113": {
+    "id": 113,
+    "name": {
+      "de": "Goldener Hammer",
+      "en": "Golden Hammer"
+    },
+    "description": {},
+    "item_type": "EQUIPMENT",
+    "item_slot": "HAMMER",
+    "sell_price": 76,
+    "quality": "COMMON",
+    "image": "golden_hammer.png",
+    "stats": {
+      "smithing_speed": 24,
+      "smithing_quality": 32
+    },
+    "tier": 0,
+    "skill_requirement": 5,
+    "level_requirement": 55
+  },
+  "114": {
+    "id": 114,
+    "name": {
+      "de": "Goldene Angelrute",
+      "en": "Golden Fishing Rod"
+    },
+    "description": {},
+    "item_type": "EQUIPMENT",
+    "item_slot": "FISHING_ROD",
+    "sell_price": 76,
+    "quality": "COMMON",
+    "image": "golden_fishing_rod.png",
+    "stats": {
+      "fishing_speed": 24
+    },
+    "tier": 0,
+    "skill_requirement": 2,
+    "level_requirement": 55
+  },
+  "115": {
+    "id": 115,
+    "name": {
+      "de": "Goldene Angelrute",
+      "en": "Golden Fishing Rod"
+    },
+    "description": {},
+    "item_type": "EQUIPMENT",
+    "item_slot": "FISHING_ROD",
+    "sell_price": 152,
+    "quality": "UNCOMMON",
+    "image": "golden_fishing_rod.png",
+    "stats": {
+      "fishing_speed": 27
+    },
+    "tier": 0,
+    "skill_requirement": 2,
+    "level_requirement": 55
+  },
+  "116": {
+    "id": 116,
+    "name": {
+      "de": "Goldene Angelrute",
+      "en": "Golden Fishing Rod"
+    },
+    "description": {},
+    "item_type": "EQUIPMENT",
+    "item_slot": "FISHING_ROD",
+    "sell_price": 228,
+    "quality": "RARE",
+    "image": "golden_fishing_rod.png",
+    "stats": {
+      "fishing_speed": 30
+    },
+    "tier": 0,
+    "skill_requirement": 2,
+    "level_requirement": 55
+  },
+  "117": {
+    "id": 117,
+    "name": {
+      "de": "Goldene Angelrute",
+      "en": "Golden Fishing Rod"
+    },
+    "description": {},
+    "item_type": "EQUIPMENT",
+    "item_slot": "FISHING_ROD",
+    "sell_price": 304,
+    "quality": "EPIC",
+    "image": "golden_fishing_rod.png",
+    "stats": {
+      "fishing_speed": 34
+    },
+    "tier": 0,
+    "skill_requirement": 2,
+    "level_requirement": 55
+  },
+  "118": {
+    "id": 118,
+    "name": {
+      "de": "Goldene Schmelzstulpen",
+      "en": "Golden Smelting Gauntlets"
+    },
+    "description": {},
+    "item_type": "EQUIPMENT",
+    "item_slot": "SMELTING_GAUNTLETS",
+    "sell_price": 228,
+    "quality": "RARE",
+    "image": "golden_smelting_gauntlets.png",
+    "stats": {
+      "smelting_speed": 30,
+      "smelting_quality": 38
+    },
+    "tier": 0,
+    "skill_requirement": 4,
+    "level_requirement": 55
+  },
+  "119": {
+    "id": 119,
+    "name": {
+      "de": "Goldene Schmelzstulpen",
+      "en": "Golden Smelting Gauntlets"
+    },
+    "description": {},
+    "item_type": "EQUIPMENT",
+    "item_slot": "SMELTING_GAUNTLETS",
+    "sell_price": 152,
+    "quality": "UNCOMMON",
+    "image": "golden_smelting_gauntlets.png",
+    "stats": {
+      "smelting_speed": 27,
+      "smelting_quality": 35
+    },
+    "tier": 0,
+    "skill_requirement": 4,
+    "level_requirement": 55
+  },
+  "120": {
+    "id": 120,
+    "name": {
+      "de": "Goldene Schmelzstulpen",
+      "en": "Golden Smelting Gauntlets"
+    },
+    "description": {},
+    "item_type": "EQUIPMENT",
+    "item_slot": "SMELTING_GAUNTLETS",
+    "sell_price": 76,
+    "quality": "COMMON",
+    "image": "golden_smelting_gauntlets.png",
+    "stats": {
+      "smelting_speed": 24,
+      "smelting_quality": 32
+    },
+    "tier": 0,
+    "skill_requirement": 4,
+    "level_requirement": 55
+  },
+  "121": {
+    "id": 121,
+    "name": {
+      "de": "Goldene Schmelzstulpen",
+      "en": "Golden Smelting Gauntlets"
+    },
+    "description": {},
+    "item_type": "EQUIPMENT",
+    "item_slot": "SMELTING_GAUNTLETS",
+    "sell_price": 304,
+    "quality": "EPIC",
+    "image": "golden_smelting_gauntlets.png",
+    "stats": {
+      "smelting_speed": 34,
+      "smelting_quality": 42
+    },
+    "tier": 0,
+    "skill_requirement": 4,
+    "level_requirement": 55
+  },
+  "122": {
+    "id": 122,
+    "name": {
+      "de": "Weidenholz",
+      "en": "Willow log"
+    },
+    "description": {},
+    "item_type": "CRAFTING",
+    "item_slot": null,
+    "sell_price": 16,
+    "quality": "COMMON",
+    "image": "willow_log.png",
+    "stats": {},
+    "tier": 0,
+    "skill_requirement": null,
+    "level_requirement": 0
+  },
+  "123": {
+    "id": 123,
+    "name": {
+      "de": "Gekochter Brachse",
+      "en": "Cooked Bream"
+    },
+    "description": {},
+    "item_type": "CRAFTING",
+    "item_slot": "FOOD",
+    "sell_price": 12,
+    "quality": "COMMON",
+    "image": "cooked_bream.png",
+    "stats": {},
+    "tier": 0,
+    "skill_requirement": null,
+    "level_requirement": 0
+  },
+  "124": {
+    "id": 124,
+    "name": {
+      "de": "Roher Brachse",
+      "en": "Raw Bream"
+    },
+    "description": {},
+    "item_type": "CRAFTING",
+    "item_slot": null,
+    "sell_price": 10,
+    "quality": "COMMON",
+    "image": "bream.png",
+    "stats": {},
+    "tier": 0,
+    "skill_requirement": null,
+    "level_requirement": 0
+  },
+  "125": {
+    "id": 125,
+    "name": {
+      "de": "Schicker Hut",
+      "en": "Fancy Hat"
+    },
+    "description": {
+      "de": "Ziehe überall die Blicke auf dich",
+      "en": "Turn heads wherever you go"
+    },
+    "item_type": "EQUIPMENT",
+    "item_slot": "HEAD",
+    "sell_price": 6000,
+    "quality": "EPIC",
+    "image": "fancy_hat_1.png",
+    "stats": {
+      "fishing_speed": 8
+    },
     "tier": 0,
     "skill_requirement": null,
     "level_requirement": 0
