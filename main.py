@@ -151,7 +151,7 @@ def run():
     drops = update_progress(100000, active_action, rng)
 
     # config
-    interesting_qualities = ["RARE", "EPIC", "LEGENDARY"]
+    interesting_qualities = [3, 4, 5]
     show_first_n_of_each_quality = 3
     print_each_drop = False
     #end config
@@ -161,7 +161,7 @@ def run():
         drop_number = drop[0]+1
         item_quantity = drop[1]
         item_id = str(drop[2])
-        q = items_db[item_id]["quality"].upper()
+        q = items_db[item_id]["quality"]
         
         if(q in interesting_qualities):
             qualities[q].append((drop_number, item_quantity, item_id))
