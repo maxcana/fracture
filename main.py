@@ -1,7 +1,11 @@
 # fracture 1.0
 # simulates rng from seed
+from functools import reduce
 import json
 import pyperclip
+
+# load items database
+with open("data/items.json", "r") as file: items_db = json.load(file)
 
 class eD:
     def __init__(self, t):
@@ -44,96 +48,103 @@ def get_db_action(skill_id, action_id):
     # Sort rewards by drop_rate
     action["rewards"] = sorted(action["rewards"], key=lambda r: r["drop_rate"])
     
-    return action
+    return action.copy()
 
+def get_adjusted_rates_action(action):
+    # Get the action details
+    db_action = get_db_action(action["skill_id"], action["action_id"])
+    if not db_action:
+        return None
+
+    # Extract slot choices
+    selected_slots = list(action.get("slot_choices", {}).values())
+
+    # Filter requirements that match the selected slot items
+    matching_requirements = [
+        req for req in db_action["requirements"] if req["item_id"] in selected_slots
+    ]
+    print(f"matching_requirements {matching_requirements}")
+
+    # Adjust drop rates for rewards based on matching requirements
+    adjusted_rewards = []
+    for reward in db_action["rewards"]:
+        drop_rate = reward["drop_rate"]
+
+        # Apply quality bonuses from matching requirements
+        for req in matching_requirements:
+            if req["quality_bonus_target"] == reward["quality"] and req["quality_bonus"] > 0:
+                print(f"Changed drop rate of Q{reward["quality"]} {items_db[str(reward["item_id"])]['name']['en']} from {drop_rate} to {drop_rate + req["quality_bonus"]} due to ingredient quality")
+                drop_rate += req["quality_bonus"]
+
+        # Store adjusted reward
+        adjusted_rewards.append({**reward, "drop_rate": drop_rate})
+
+    # Sort rewards by adjusted drop rate (ascending order) to match with the js logic to not ensure desync and also maybe if it's not sorted a rare could become a common etc
+    adjusted_rewards.sort(key=lambda r: r["drop_rate"])
+    
+    #print(f"original rewards: {db_action["rewards"]}")
+    #print(f"adjusted rewards: {adjusted_rewards}")
+    
+    db_action["rewards"] = adjusted_rewards
+    
+    return db_action
+
+def coalesce(*arg):
+  return reduce(lambda x, y: x if x is not None else y, arg)
 
 def update_progress(cycles, active_action, rng):
     cycles = int(cycles)
     
     # Unpack state
-    i = active_action #state.get("active_action")
-    
-    s = get_db_action(i.get("skill_id"), i.get("action_id")) #state.get("db_action")
-    o = rng # state.get("rng")
-    u = 0 # state.get("last_completed_cycle", 0)
-    # f = state.get("start_time", 0)
-    m = {} # state.get("loot", {})
-    
+    i = active_action  # state.get("active_action")
+    s = coalesce(get_adjusted_rates_action(active_action), get_db_action(i["skill_id"], i["action_id"])) # state.get("db_action")
+    o = rng  # state.get("rng")
+    u = 0  # state.get("last_completed_cycle", 0)
+    m = {}  # state.get("loot", {})
+
     if not i or not o or not s:
         return
     
     # Extract action details
-    # h = s.get("duration")
-    g = s.get("rewards", [])
-    #v = s.get("requirements", []) # ingredients for crafting recipe
-    # x = h * (1 - i.get("speed_bonus", 0) / 100)
-    # w = state.get("server_time") - f
-    # if w <= 0:
-    #     return
-    
-    # Calculate time metrics
-    # S = w / 1000  # Elapsed time in seconds
-    # C = x / 1000  # Cycle duration in seconds
-    # j = (S % C) / C  # Progress within the current cycle (0-1, displayed as %)
-    N = m.copy()  # Copy current loot
-    #R = 100 # int(S // C)  # Number of completed cycles to be calculated
-    O = 0 + cycles #i.get("action_count", 0) + R  # Total completed cycles (after counting old cycles "action_count")
-    
-    
+    rewards = s.get("rewards")
+
+    O = u + cycles  # Total completed cycles
     drops = []
-    
+
     # Process completed cycles
     if O > u:
-        # Handle crafting requirements
-        #if v:
-            #calculate_used_in_crafting_items(O, state)
-        
-        #k = state.get("inventory")
-        G = s.get("single_reward", False)
-        
+        G = s.get("single_reward", False)  # Flag for a single reward drop per cycle
+
         for U in range(u, O):
-            # Check requirements for each cycle
-            #if v and not all(requirements_met(P, i, k) for P in v):
-                #break
-            
-            # Distribute rewards
-            for reward in g:
-                drop_rate = reward["drop_rate"] * (1 + i.get("quality_bonus", 0))
-                if o.nextFloat() <= drop_rate:  # Use RNG for drop chance
+            for reward in rewards:
+                # Step 1: Start with the base drop rate
+                drop_rate = reward["drop_rate"]
+
+                # Step 3: Apply the global quality bonus (EVEN TO THE ADJUSTED RATES LMAO)
+                
+                drop_rate *= (1 + i.get("quality_bonus", 0))
+                #print(f"Q{reward["quality"]} {items_db[str(reward["item_id"])]['name']['en']} final drop rate: {drop_rate} (+{i.get("quality_bonus", 0) * 100}%)")
+
+                # Step 4: Perform RNG check for drop chance
+                nextFloat = o.nextFloat()
+
+                if nextFloat <= drop_rate:
                     quantity = (
                         reward["quantity"]
                         if reward["quantity"] == reward["max_quantity"]
                         else o.nextInt(reward["quantity"], reward["max_quantity"] + 1)
                     )
                     item_id = reward["item_id"]
-                    N[item_id] = N.get(item_id, 0) + quantity
+                    m[item_id] = m.get(item_id, 0) + quantity
+                    drops.append((U, quantity, item_id))
+                    
+                    # If only one reward should drop, break after the first successful drop
                     if G:
                         break
-            drops.append((U, quantity, item_id))
-        
-        # Update skill experience
-        
 
-        # O is the ending action #, u is the starting action number, always 0. (index doesnt matter as seen in the loop above U is not used)
-        # j = 0  # Reset progress within the current cycle
-    
-    # Update final state
-    # final_state = {
-    #     "calculated_experience": O * s.get("experience", 0),
-    #     # "progress": j * 100,
-    #     "last_completed_cycle": O,
-    #     "completed_cycles": R,
-    #     "total_completed_cycles": O,
-    #     "loot": N,
-    # }
-
-    # print("skill " + i.get("skill_id") + " xp increased by " + O * s.get("experience", 0))
-    
     return drops
 
 
-# load items database
-with open("data/items.json", "r") as file: items_db = json.load(file)
 
 def run():
     input("copy the request start-action/\npress enter...")
@@ -152,11 +163,11 @@ def run():
 
     # config
     interesting_qualities = [3, 4, 5]
-    show_first_n_of_each_quality = 3
-    print_each_drop = False
+    quality_to_name = {0: "poor", 1: "common", 2: "uncommon", 3: "rare", 4: "epic", 5: "legendary", 6: "rarity-6"}
+    show_first_n_of_each_quality = 5
     #end config
 
-    qualities = {key: [] for key in interesting_qualities}
+    qualities = {quality_to_name[key]: [] for key in interesting_qualities}
     for drop in drops:
         drop_number = drop[0]+1
         item_quantity = drop[1]
@@ -164,9 +175,7 @@ def run():
         q = items_db[item_id]["quality"]
         
         if(q in interesting_qualities):
-            qualities[q].append((drop_number, item_quantity, item_id))
-        if(print_each_drop): 
-            print(f"drop #{drop_number}: {item_quantity}x item {item_id}")
+            qualities[quality_to_name[q]].append((drop_number, item_quantity, item_id))
         
     # print basic info
     for key, value in qualities.items():
