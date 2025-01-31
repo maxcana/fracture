@@ -63,8 +63,8 @@ def get_adjusted_rates_action(action):
     matching_requirements = [
         req for req in db_action["requirements"] if req["item_id"] in selected_slots
     ]
-    print(f"matching_requirements {matching_requirements}")
-
+    #print(f"matching_requirements {matching_requirements}")
+    
     # Adjust drop rates for rewards based on matching requirements
     adjusted_rewards = []
     for reward in db_action["rewards"]:
@@ -72,9 +72,50 @@ def get_adjusted_rates_action(action):
 
         # Apply quality bonuses from matching requirements
         for req in matching_requirements:
-            if req["quality_bonus_target"] == reward["quality"] and req["quality_bonus"] > 0:
-                print(f"Changed drop rate of Q{reward["quality"]} {items_db[str(reward["item_id"])]['name']['en']} from {drop_rate} to {drop_rate + req["quality_bonus"]} due to ingredient quality")
-                drop_rate += req["quality_bonus"]
+            def print_drop_rate_change(changed_by):
+                if(changed_by != 0):
+                    print(f"Changed drop rate of {quality_to_name[reward["quality"]]} {items_db[str(reward["item_id"])]['name']['en']} from {drop_rate} to {drop_rate + changed_by} due to ingredient quality")
+
+            ingredient_vs_reward_quality_dif = req['quality_bonus_target'] - reward["quality"]
+            if ingredient_vs_reward_quality_dif >= 3:
+                print_drop_rate_change(0 - drop_rate)
+                drop_rate = 0
+                continue
+            if ingredient_vs_reward_quality_dif >= 2:
+                print_drop_rate_change(1 - drop_rate)
+                drop_rate = 1
+                continue
+
+            match reward["quality"]:
+                case 0: 
+                    print_drop_rate_change(req['quality_bonus_poor'])
+                    drop_rate += req['quality_bonus_poor']
+                case 1:
+                    print_drop_rate_change(req['quality_bonus_common'])
+                    drop_rate += req['quality_bonus_common']
+                case 2:
+                    print_drop_rate_change(req['quality_bonus_uncommon'])
+                    drop_rate += req['quality_bonus_uncommon']
+                case 3:
+                    print_drop_rate_change(req['quality_bonus_rare'])
+                    drop_rate += req['quality_bonus_rare']
+                case 4:
+                    print_drop_rate_change(req['quality_bonus_epic'])
+                    drop_rate += req['quality_bonus_epic']
+                case 5:
+                    print_drop_rate_change(req['quality_bonus_legendary'])
+                    drop_rate += req['quality_bonus_legendary']
+                case 6:
+                    print_drop_rate_change(req['quality_bonus_mythic'])
+                    drop_rate += req['quality_bonus_mythic']
+                    
+                case _: print(f"ERROR: What is quality {reward["quality"]}?")
+
+            print_drop_rate_change(req['quality_bonus_all'])
+            drop_rate += req['quality_bonus_all']
+            
+            #if req["quality_bonus_target"] >= reward["quality"] and req["quality_bonus"] > 0:
+                #drop_rate += req["quality_bonus"]
 
         # Store adjusted reward
         adjusted_rewards.append({**reward, "drop_rate": drop_rate})
@@ -144,7 +185,11 @@ def update_progress(cycles, active_action, rng):
 
     return drops
 
-
+# config
+interesting_qualities = [3, 4, 5]
+quality_to_name = {0: "poor", 1: "common", 2: "uncommon", 3: "rare", 4: "epic", 5: "legendary", 6: "mythic", 7: "quality-7"}
+show_first_n_of_each_quality = 4
+#end config
 
 def run():
     input("copy the request start-action/\npress enter...")
@@ -161,11 +206,6 @@ def run():
     # calculate drops from seed
     drops = update_progress(100000, active_action, rng)
 
-    # config
-    interesting_qualities = [3, 4, 5]
-    quality_to_name = {0: "poor", 1: "common", 2: "uncommon", 3: "rare", 4: "epic", 5: "legendary", 6: "rarity-6"}
-    show_first_n_of_each_quality = 5
-    #end config
 
     qualities = {quality_to_name[key]: [] for key in interesting_qualities}
     for drop in drops:
