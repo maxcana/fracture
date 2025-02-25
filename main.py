@@ -186,7 +186,7 @@ def update_progress(cycles, active_action, rng):
     return drops
 
 # config
-interesting_qualities = [3, 4, 5]
+interesting_qualities = [2,3, 4, 5]
 quality_to_name = {0: "poor", 1: "common", 2: "uncommon", 3: "rare", 4: "epic", 5: "legendary", 6: "mythic", 7: "quality-7"}
 show_first_n_of_each_quality = 4
 #end config
