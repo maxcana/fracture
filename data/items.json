@@ -44,7 +44,7 @@
         "description": {},
         "item_type": "CRAFTING",
         "item_slot": null,
-        "sell_price": 0,
+        "sell_price": 5000,
         "quality": 4,
         "quality_display": "EPIC",
         "image": "diamond.png",
